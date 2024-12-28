@@ -52,7 +52,13 @@ exports.login = async (req, res) => {
       sameSite: 'Strict'
     });
 
-    res.status(200).json({ message: 'Connexion réussie', user, token });
+    let data = {
+      "id": user.id,
+      "name": user.name,
+      "email": user.email
+    };
+
+    res.status(200).json({ message: 'Connexion réussie', user: data, token });
   } catch (err) {
     res.status(400).json({ message: "Une erreur s'est produite pendant la connexion", error: err.message });
   }

@@ -27,7 +27,7 @@ app.use(cors(corsOptions));
 
 // create App Database if not exists
 (async function(){
-  db.createDb("postgresdb_iztm"); // nutritional_diary
+  db.createDb("nutritional_diary"); // nutritional_diary  postgresdb_iztm
 })();
 
 // Synchroniser les modèles avec la base de données
