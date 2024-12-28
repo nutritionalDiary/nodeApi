@@ -8,7 +8,6 @@ const reservationRoutes = require("./routes/reservation");
 const restaurantRoutes = require("./routes/restaurant");
 const db = require("./db");
 const sequelize = require("./sequelize");
-const { importDatas } = require('./import_xlsx');
 const path = require("path");
 const cors = require("cors");
 
@@ -35,7 +34,6 @@ app.use(cors(corsOptions));
 sequelize.sync({force: false})
 .then(async () => {
   console.log("Les tables ont été synchronisées");
-  await importDatas();
 })
 .catch((err) => console.log({"Erreur": err}));
 
