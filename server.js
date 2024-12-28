@@ -26,9 +26,9 @@ let corsOptions = {
 app.use(cors(corsOptions));
 
 // create App Database if not exists
-(async function(){
-  db.createDb("nutritional_diary");
-})();
+/*(async function(){
+  db.createDb("postgresdb_iztm"); // nutritional_diary
+})();*/
 
 // Synchroniser les modèles avec la base de données
 sequelize.sync({force: false})

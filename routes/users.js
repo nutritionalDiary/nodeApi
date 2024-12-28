@@ -4,11 +4,11 @@ const authMiddleware = require('../middleware/auth');
 
 const router = express.Router();
 
-router.get('/users', authMiddleware, userController.all);
-router.get('/users/:code', authMiddleware, userController.get);
-router.post('/users', authMiddleware, userController.create);
-router.put('/users/:code', authMiddleware, userController.update);
-router.delete('/users/:code', authMiddleware, userController.delete);
+router.get('/', authMiddleware, userController.all);
+router.get('/:id', authMiddleware, userController.get);
+router.post('/', authMiddleware, userController.create);
+router.put('/:id', authMiddleware, userController.update);
+router.delete('/:id', authMiddleware, userController.delete);
 router.delete('/delete-account', authMiddleware, userController.deleteAccount);
 
 module.exports = router;
