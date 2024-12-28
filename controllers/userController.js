@@ -14,10 +14,10 @@ exports.all = async (req, res) => {
 }
 
 exports.get = async (req, res) => {
-    const { code } = req.params;
+    const { id } = req.params;
 
     try {
-        const user = await User.findOne({ where: { 'code': code } });
+        const user = await User.findOne({ where: { 'id': id } });
 
         if(user == null)
         {
@@ -32,10 +32,10 @@ exports.get = async (req, res) => {
 }
 
 exports.create = async (req, res) => {
-    const { code, username, email, phone } = req.body;
+    const { name, email, password } = req.body;
     try {
         //const userId = req.userData.userId;
-        const user = await User.create({ code, username, email, phone });
+        const user = await User.create({ name, email, password });
         
         res.status(201).json({ message: "Utilisateur créé avec succès", "user": user });
     } catch(err) {
@@ -48,17 +48,17 @@ exports.create = async (req, res) => {
 
 exports.update = async (req, res) => {
     
-    const { code } = req.params;
-    const { username, email, phone } = req.body;
+    const { id } = req.params;
+    const { name, email, password } = req.body;
 
     try {
-        const user = await User.findOne({ where: { "code": code }});
+        const user = await User.findOne({ where: { "id": id }});
         
         if(user != null)
         {
-            if(username != null) user.username = username;
+            if(name != null) user.name = name;
             if(email != null) user.email = email;
-            if(phone != null) user.phone = phone;
+            if(password != null) user.password = password;
 
             user.save();
         
@@ -76,10 +76,10 @@ exports.update = async (req, res) => {
 // delete any user
 exports.delete = async (req, res) => {
 
-    const { code } = req.params;
+    const { id } = req.params;
 
     try {
-        const deletedUser = await User.destroy({ where: { "code": code }});
+        const deletedUser = await User.destroy({ where: { "id": id }});
 
         if(deletedUser > 0)
         {
@@ -100,9 +100,9 @@ exports.deleteAccount = async (req, res) => {
     // const { id } = req.params;
 
     try {
-        const userCode = req.userData.userCode;
+        const userCode = req.userData.userId;
 
-        const deletedUser = await User.destroy({ where: { "code": userCode }});
+        const deletedUser = await User.destroy({ where: { "id": userId }});
 
         if(deletedUser > 0)
         {

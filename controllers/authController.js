@@ -4,17 +4,15 @@ const { User } = require('../models/models');
 
 exports.register = async (req, res) => {
   try {
-    const { code, username, email, phone, password } = req.body;
+    const { name, email, password } = req.body;
 
-    const newUser = await User.create({ code, username, email, phone, password });
+    const newUser = await User.create({ name, email, password });
     
     res.status(201).json({
       message: "Utilisateur créé avec succès",
       user: {
-        "code": newUser.code,
-        "username": newUser.username,
-        "email": newUser.email,
-        "phone": newUser.phone
+        "name": newUser.name,
+        "email": newUser.email
       }
     });
   } catch (err) {
@@ -27,8 +25,8 @@ exports.register = async (req, res) => {
 
 exports.login = async (req, res) => {
   try {
-    const { username, password } = req.body;
-    const user = await User.findOne({ where: { username } });
+    const { email, password } = req.body;
+    const user = await User.findOne({ where: { email } });
     //console.log({ "user": user.password });
     //console.log({ "valid pass": await user.validPassword(password) });
     if (!user) {
@@ -42,7 +40,7 @@ exports.login = async (req, res) => {
 
     // Génère un token JWT avec l'ID de l'utilisateur
     const token = jwt.sign(
-      { code: user.code, username: user.username }, // Payload du token
+      { id: user.id, email: user.email }, // Payload du token
       process.env.JWT_SECRET, // Clé secrète pour signer le token
       { expiresIn: '15d' } // Durée de validité du token
     );

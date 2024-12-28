@@ -8,7 +8,7 @@ module.exports = (req, res, next) => {
     const token = req.headers.authorization.split(' ')[1];
     const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
     // console.log({ "Auth token" : token , "Decoded Token" : decodedToken });
-    req.userData = { userCode: decodedToken.code, username: decodedToken.username };
+    req.userData = { userId: decodedToken.id, email: decodedToken.email };
     next();
   } catch (error) {
     return res.status(401).json({ error: 'Echec de l\'authentification' });

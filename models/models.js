@@ -5,16 +5,9 @@ const bcrypt = require("bcrypt");
 /** ---------- MODELS ---------- **/
 // User Model
 const User = sequelize.define("user", {
-    code: {
+    name: {
         type: DataTypes.STRING,
-        allowNull: false,
-        primaryKey: true,
-        autoIncrement: false
-    },
-    username: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true
+        allowNull: false
     },
     email: {
         type: DataTypes.STRING,
@@ -24,14 +17,10 @@ const User = sequelize.define("user", {
             isEmail: true
         }
     },
-    phone: {
-        type: DataTypes.STRING,
-        allowNull: false
-    },
     password: {
         type: DataTypes.STRING,
         allowNull: false
-    }
+    },
 },
 {
     hooks: {
@@ -49,129 +38,106 @@ const User = sequelize.define("user", {
                 user.password = await bcrypt.hash(user.password, salt);
             }
         }
-    }
+    },
+    timestamps: true,
 });
 
-// Cooperative Model
-const Cooperative = sequelize.define("cooperative", {
+// Food Model
+const Food = sequelize.define("food", {
     name: {
         type: DataTypes.STRING,
         allowNull: false,
+    },
+    calories: {
+        type: DataTypes.DECIMAL,
+        allowNull: false,
+    },
+    time: {
+        type: DataTypes.DATE,
+        allowNull: false,
     }
+}, {
+    timestamps: true,
 });
 
-// Exporter Model
-const Exporter = sequelize.define("exporter", {
+// Restaurant Model
+const Restaurant = sequelize.define("restaurant", {
     name: {
         type: DataTypes.STRING,
         allowNull: false,
-    }
-});
-
-// Purchase Model
-const Purchase = sequelize.define("purchase", {
-    quantity: {
-        type: DataTypes.INTEGER,
+    },
+    coordinates: {
+        type: DataTypes.GEOMETRY("POINT"),
         allowNull: true,
     },
-    price: {
-        type: DataTypes.DECIMAL,
-        allowNull: true
-    },
-    date: {
-        type: DataTypes.DATEONLY,
-        allowNull: true
-    }
-});
-
-// Sale Model
-const Sale = sequelize.define("sale", {
-    quantity: {
-        type: DataTypes.INTEGER,
+    tel: {
+        type: DataTypes.STRING,
         allowNull: true,
     },
-    price: {
-        type: DataTypes.DECIMAL,
-        allowNull: true
+    email: {
+        type: DataTypes.STRING,
+        allowNull: true,
+        unique: true,
+        validate : {
+            isEmail: true
+        }
     },
-    date: {
-        type: DataTypes.DATEONLY,
-        allowNull: true
-    }
+}, {
+    timestamps: true,
 });
 
-// Plot Model
-const Plot = sequelize.define("plot", {
-    code: {
+// Reservations Model
+const Reservation = sequelize.define("reservation", {
+    date: {
+        type: DataTypes.DATE,
+        allowNull: false,
+    },
+    nb_personnes: {
+        type: DataTypes.DECIMAL,
+        allowNull: false,
+    }
+}, {
+    timestamps: true,
+});
+
+// Dietician Model
+const Dietitian = sequelize.define("dietitian", {
+    name: {
         type: DataTypes.STRING,
         allowNull: false,
-        //primaryKey: true,
-        //autoIncrement: false
-    },
-    region: {
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    dept: {
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    arr: {
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    village: {
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    area: {
-        type: DataTypes.STRING,
-        allowNull: true
     },
     location: {
+        type: DataTypes.GEOMETRY("POINT"),
+        allowNull: true,
+    },
+    tel: {
         type: DataTypes.STRING,
-        allowNull: true
+        allowNull: true,
     },
-    xCoord : {
-        type: DataTypes.DECIMAL,
-        allowNull: true
-    },
-    yCoord: {
-        type: DataTypes.DECIMAL,
-        allowNull: true
-    },
-    plantingAge : {
+    email: {
         type: DataTypes.STRING,
-        allowNull: true
-    },
-    plantsNumber : {
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    productionPerYear : {
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    chemistryIntrants : { // En abrégé cI
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    cIYearUseFrequency : {
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    fertilizer : { // En abrégé f
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    fYearUseFrequency : {
-        type: DataTypes.STRING,
-        allowNull: true
-    },
-    difficulties : {
-        type: DataTypes.TEXT,
-        allowNull: true
+        allowNull: true,
+        unique: true,
+        validate : {
+            isEmail: true
+        }
     }
+}, {
+    timestamps: true,
+});
+
+// Meeting Model
+const Meeting = sequelize.define("meeting", {
+    date: {
+        type: DataTypes.DATE,
+        allowNull: false,
+    },
+    reason: {
+        type: DataTypes.TEXT,
+        allowNull: false
+    }
+}, {
+    timestamps: true,
 });
 
 /** ---------- RELATIONS ---------- **/
@@ -183,29 +149,29 @@ Plot.belongsTo(Producer, { foreignKey: 'producerCode' });
 Producer.hasMany(Purchase, { foreignKey: 'producerCode' });
 Purchase.belongsTo(Producer, { foreignKey: 'producerCode' });*/
 
-// User - Plot One to Many Relation
-User.hasMany(Plot, { foreignKey: 'userCode' });
-Plot.belongsTo(User, { foreignKey: 'userCode' });
+// User - Food One to Many Relation
+User.hasMany(Food, { foreignKey: 'userId' });
+Food.belongsTo(User, { foreignKey: 'userId' });
 
-// User - Purchase One to Many Relation
-User.hasMany(Purchase, { foreignKey: 'userCode' });
-Purchase.belongsTo(User, { foreignKey: 'userCode' });
+// User - Reservation One to Many Relation
+User.hasMany(Reservation, { foreignKey: 'userId' });
+Reservation.belongsTo(User, { foreignKey: 'userId' });
 
-// Cooperative - Purchase One to Many Relation
-Cooperative.hasMany(Purchase, { foreignKey: 'cooperativeId' });
-Purchase.belongsTo(Cooperative, { foreignKey: 'cooperativeId' });
+// User - Meeting One to Many Relation
+User.hasMany(Purchase, { foreignKey: 'userId' });
+Meeting.belongsTo(Cooperative, { foreignKey: 'userId' });
 
-// Cooperative - Sale One to Many Relation
-Cooperative.hasMany(Sale, { foreignKey: 'cooperativeId' });
-Sale.belongsTo(Cooperative, { foreignKey: 'cooperativeId' });
+// Reservation - Restaurant One to Many Relation
+Restaurant.hasMany(Reservation, { foreignKey: 'restaurantId' });
+Reservation.belongsTo(Restaurant, { foreignKey: 'restaurantId' });
 
-// Exporter - Sale One to Many Relation
-Exporter.hasMany(Sale, { foreignKey: 'exporterId' });
-Sale.belongsTo(Exporter, { foreignKey: 'exporterId' });
+// Meeting - Dietist One to Many Relation
+Dietitian.hasMany(Meeting, { foreignKey: 'dietitianId' });
+Meeting.belongsTo(Dietitian, { foreignKey: 'dietitianId' });
 
 // Cooperative - Plot One to Many Relation
-Cooperative.hasMany(Plot, { foreignKey: { name: 'cooperativeId', allowNull: true }, onDelete: "SET NULL", onUpdate: "CASCADE" });
-Plot.belongsTo(Cooperative, { foreignKey: { name: 'cooperativeId', allowNull: true } });
+// Cooperative.hasMany(Plot, { foreignKey: { name: 'cooperativeId', allowNull: true }, onDelete: "SET NULL", onUpdate: "CASCADE" });
+// Plot.belongsTo(Cooperative, { foreignKey: { name: 'cooperativeId', allowNull: true } });
 
 // User - Plot One to Many Relation
 // Cooperative.hasMany(Plot, { foreignKey: 'cooperativeId' });
@@ -218,10 +184,9 @@ User.prototype.validPassword = async function(password) {
 
 module.exports = {
     User,
-    //Producer,
-    Cooperative,
-    Exporter,
-    Purchase,
-    Sale,
-    Plot
+    Food,
+    Restaurant,
+    Reservation,
+    Dietitian,
+    Meeting
 };
