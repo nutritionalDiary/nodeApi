@@ -158,8 +158,8 @@ User.hasMany(Reservation, { foreignKey: 'userId' });
 Reservation.belongsTo(User, { foreignKey: 'userId' });
 
 // User - Meeting One to Many Relation
-User.hasMany(Purchase, { foreignKey: 'userId' });
-Meeting.belongsTo(Cooperative, { foreignKey: 'userId' });
+User.hasMany(Meeting, { foreignKey: 'userId' });
+Meeting.belongsTo(User, { foreignKey: 'userId' });
 
 // Reservation - Restaurant One to Many Relation
 Restaurant.hasMany(Reservation, { foreignKey: 'restaurantId' });
