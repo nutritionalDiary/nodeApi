@@ -49,15 +49,15 @@ app.use(`${routeHead}/users`, userRoutes);
 
 //app.use(`${routeHead}/producers`, producerRoutes);
 
-app.use(`${routeHead}/dietitian`, dietitianRoutes);
+app.use(`${routeHead}/dietitians`, dietitianRoutes);
 
-app.use(`${routeHead}/food`, foodRoutes);
+app.use(`${routeHead}/foods`, foodRoutes);
 
-app.use(`${routeHead}/meeting`, meetingRoutes);
+app.use(`${routeHead}/meetings`, meetingRoutes);
 
-app.use(`${routeHead}/reservation`, reservationRoutes);
+app.use(`${routeHead}/reservations`, reservationRoutes);
 
-app.use(`${routeHead}/restaurant`, restaurantRoutes);
+app.use(`${routeHead}/restaurants`, restaurantRoutes);
 
 // share resources via any route
 //app.use(`${routeHead}/static`, express.static(path.join(__dirname, "resources/geojson")));

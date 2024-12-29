@@ -30,10 +30,39 @@ exports.get = async (req, res) => {
     }
 }
 
+exports.getUserFoods = async (req, res) => {
+
+    try {
+        const userId = req.userData.userId;
+        const foods = await Food.findAll({ where: { 'userId': userId }, order: [['time', 'DESC']] });
+
+        res.status(200).json(foods);
+    } catch (err) {
+        res.status(500).json({
+            message : err.message
+        });
+    }
+}
+
 exports.create = async (req, res) => {
     const { name, calories, time, userId } = req.body;
     try {
         //const userId = req.userData.userId;
+        const food = await Food.create({ name, calories, time, userId });
+        
+        res.status(201).json({ message: "Repas ajouté avec succès", "food": food });
+    } catch(err) {
+        res.status(500).json({
+            message : err.message
+        });
+    }
+}
+
+
+exports.addUserFood = async (req, res) => {
+    const { name, calories, time } = req.body;
+    try {
+        const userId = req.userData.userId;
         const food = await Food.create({ name, calories, time, userId });
         
         res.status(201).json({ message: "Repas ajouté avec succès", "food": food });

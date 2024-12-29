@@ -100,7 +100,7 @@ exports.deleteAccount = async (req, res) => {
     // const { id } = req.params;
 
     try {
-        const userCode = req.userData.userId;
+        const userId = req.userData.userId;
 
         const deletedUser = await User.destroy({ where: { "id": userId }});
 
