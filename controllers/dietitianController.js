@@ -1,5 +1,6 @@
 const db = require('../db');
 const { Dietitian } = require('../models/models');
+const { sequelize } = require("../models/models");
 
 exports.all = async (req, res) => {
     try {
@@ -103,8 +104,13 @@ exports.nearby = async (req, res) => {
 
     try {
         const dietitians = await Dietitian.findAll({
+            attributes: {
+                include: [
+                    [sequelize.literal(`ST_DistanceSphere(coordinates, ST_MakePoint(${lng}, ${lat}))`), 'distance']
+                ]
+            },
             order: [
-                [db.literal(`ST_Distance_Sphere(coordinates, ST_MakePoint(${lng}, ${lat}))`), 'ASC']
+                [sequelize.literal(`distance`), 'ASC']
             ]
         });
         res.status(200).json(dietitians);

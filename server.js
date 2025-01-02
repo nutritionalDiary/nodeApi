@@ -31,7 +31,9 @@ app.use(cors(corsOptions));
 })();
 
 // Synchroniser les modèles avec la base de données
-sequelize.sync({force: false})
+//sequelize.sync({force: false})
+//sequelize.sync({force: true})
+sequelize.sync({alter: true})
 .then(async () => {
   console.log("Les tables ont été synchronisées");
 })

@@ -1,5 +1,6 @@
 const db = require('../db');
 const { Reservation } = require('../models/models');
+const { Restaurant } = require('../models/models');
 
 exports.all = async (req, res) => {
     try {
@@ -23,6 +24,26 @@ exports.get = async (req, res) => {
             return res.status(404).json("Cette reservation n'existe pas");    
         }
         res.status(200).json(reservation);
+    } catch (err) {
+        res.status(500).json({
+            message : err.message
+        });
+    }
+}
+
+exports.userReservations = async (req, res) => {
+
+    try {
+        const userId = req.userData.userId;
+
+        const reservations = await Reservation.findAll({
+            where: { 'userId': userId },
+            order: [['date', 'DESC']],
+            include: [{ model: Restaurant }]
+        });
+        //const reservations = await Reservation.findOne({ where: { 'userId': userId }, order: [['date', "DESC"]] });
+
+        res.status(200).json(reservations);
     } catch (err) {
         res.status(500).json({
             message : err.message

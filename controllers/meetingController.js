@@ -1,5 +1,5 @@
 const db = require('../db');
-const { Meeting } = require('../models/models');
+const { Meeting, Dietitian } = require('../models/models');
 
 exports.all = async (req, res) => {
     try {
@@ -23,6 +23,25 @@ exports.get = async (req, res) => {
             return res.status(404).json("Ce rendez-vous n'existe pas");    
         }
         res.status(200).json(meeting);
+    } catch (err) {
+        res.status(500).json({
+            message : err.message
+        });
+    }
+}
+
+exports.userMeetings = async (req, res) => {
+
+    try {
+        const userId = req.userData.userId;
+        const meetings = await Meeting.findAll({
+            where: { 'userId': userId },
+            order: [['date', 'DESC']],
+            include: [{ model: Dietitian }]
+        });
+        //const meetings = await Meeting.findOne({ where: { 'userId': userId }, order: [['date', "DESC"]]  });
+
+        res.status(200).json(meetings);
     } catch (err) {
         res.status(500).json({
             message : err.message

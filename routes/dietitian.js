@@ -6,7 +6,7 @@ const authMiddleware = require('../middleware/auth');
 const router = express.Router();
 
 router.get('/'/*, authMiddleware*/, dietitianController.all);
-router.get('/:id'/*, authMiddleware*/, dietitianController.get);
+router.get('/dietitians/:id'/*, authMiddleware*/, dietitianController.get);
 router.get('/nearby'/*, authMiddleware*/, dietitianController.nearby);
 router.post('/'/*, authMiddleware*/, dietitianController.create);
 router.put('/:id'/*, authMiddleware*/, dietitianController.update);

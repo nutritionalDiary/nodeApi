@@ -106,7 +106,7 @@ const Dietitian = sequelize.define("dietitian", {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    location: {
+    coordinates: {
         type: DataTypes.GEOMETRY("POINT"),
         allowNull: true,
     },
@@ -188,5 +188,6 @@ module.exports = {
     Restaurant,
     Reservation,
     Dietitian,
-    Meeting
+    Meeting,
+    sequelize
 };
