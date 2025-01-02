@@ -63,6 +63,6 @@ app.use(`${routeHead}/restaurants`, restaurantRoutes);
 //app.use(`${routeHead}/static`, express.static(path.join(__dirname, "resources/geojson")));
 //console.log(path.join(__dirname, "resources/tiles/Mapnik"));
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`L'API est disponible via http://localhost:${port}`);
 });
