@@ -1,5 +1,6 @@
 const db = require('../db');
 const { Restaurant } = require('../models/models');
+const { Op } = require('sequelize');
 
 exports.all = async (req, res) => {
     try {
@@ -89,6 +90,27 @@ exports.delete = async (req, res) => {
     } catch(err) {
         res.status(500).json({
             message : err.message
+        });
+    }
+}
+
+exports.nearby = async (req, res) => {
+    const { lat, lng } = req.query;
+
+    if (!lat || !lng) {
+        return res.status(400).json({ message: "Latitude et longitude sont requises" });
+    }
+
+    try {
+        const restaurants = await Restaurant.findAll({
+            order: [
+                [db.literal(`ST_Distance_Sphere(coordinates, ST_MakePoint(${lng}, ${lat}))`), 'ASC']
+            ]
+        });
+        res.status(200).json(restaurants);
+    } catch (err) {
+        res.status(500).json({
+            message: err.message
         });
     }
 }

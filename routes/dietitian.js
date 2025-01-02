@@ -7,6 +7,7 @@ const router = express.Router();
 
 router.get('/'/*, authMiddleware*/, dietitianController.all);
 router.get('/:id'/*, authMiddleware*/, dietitianController.get);
+router.get('/nearby'/*, authMiddleware*/, dietitianController.nearby);
 router.post('/'/*, authMiddleware*/, dietitianController.create);
 router.put('/:id'/*, authMiddleware*/, dietitianController.update);
 router.delete('/:id'/*, authMiddleware*/, dietitianController.delete);

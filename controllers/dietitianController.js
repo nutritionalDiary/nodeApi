@@ -92,3 +92,25 @@ exports.delete = async (req, res) => {
         });
     }
 }
+
+// Ordonnes les dietetistes du plus proche au plus eloigne
+exports.nearby = async (req, res) => {
+    const { lat, lng } = req.query;
+
+    if (!lat || !lng) {
+        return res.status(400).json({ message: "Latitude et longitude sont requises" });
+    }
+
+    try {
+        const dietitians = await Dietitian.findAll({
+            order: [
+                [db.literal(`ST_Distance_Sphere(coordinates, ST_MakePoint(${lng}, ${lat}))`), 'ASC']
+            ]
+        });
+        res.status(200).json(dietitians);
+    } catch (err) {
+        res.status(500).json({
+            message: err.message
+        });
+    }
+}
