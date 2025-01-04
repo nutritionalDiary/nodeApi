@@ -1,0 +1,8390 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-01-03T09:58:35Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1014060413",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Café de Yaounde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5188486,
+          3.8728445
+        ]
+      },
+      "id": "node/1014060413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1116281761",
+        "addr:city": "Yaounde",
+        "addr:country": "CM",
+        "addr:postcode": "11852",
+        "addr:street": "Boulevard du 20 Mai",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Le Safoutier",
+        "operator": "Hilton",
+        "phone": "+237 22 23 36 46",
+        "smoking": "no",
+        "stars": "5",
+        "website": "http://www.hilton.de/yaounde",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5160613,
+          3.8641972
+        ]
+      },
+      "id": "node/1116281761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1808635162",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "name": "Bambou Lodge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5181964,
+          3.8766235
+        ]
+      },
+      "id": "node/1808635162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1986989793",
+        "amenity": "restaurant",
+        "name": "Restaurant Universitaire N°2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4984338,
+          3.8552274
+        ]
+      },
+      "id": "node/1986989793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1993254174",
+        "amenity": "restaurant",
+        "name": "La Marmite du Boulevard",
+        "source": "survey:PFE(IT3) ENSTP Yaounde 2010",
+        "start_date": "2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5162953,
+          3.8645639
+        ]
+      },
+      "id": "node/1993254174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2017537694",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "One Spirit",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5016172,
+          3.8631093
+        ]
+      },
+      "id": "node/2017537694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2017537696",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "St Eloi",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5015002,
+          3.8630923
+        ]
+      },
+      "id": "node/2017537696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2033654670",
+        "amenity": "restaurant",
+        "cuisine": "cameroonian",
+        "name": "Smiley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.516244,
+          3.8705854
+        ]
+      },
+      "id": "node/2033654670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2033659732",
+        "amenity": "restaurant",
+        "name": "flore",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5024389,
+          3.8708187
+        ]
+      },
+      "id": "node/2033659732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2033811692",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "name": "Restaurant le maquis du Grand Bassam",
+        "source": "survey:PFE(IT3) ENSTP Yaounde 2010",
+        "start_date": "2005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5033558,
+          3.8620126
+        ]
+      },
+      "id": "node/2033811692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2033890349",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4984601,
+          3.8521693
+        ]
+      },
+      "id": "node/2033890349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2040772063",
+        "amenity": "restaurant",
+        "name": "Refectoire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5003593,
+          3.8417989
+        ]
+      },
+      "id": "node/2040772063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2284597409",
+        "addr:housenumber": "1165",
+        "addr:street": "Rue Joseph Mballa Eloumden",
+        "amenity": "restaurant",
+        "cuisine": "turkish",
+        "name": "Istanbul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.51229,
+          3.8920473
+        ]
+      },
+      "id": "node/2284597409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2304346036",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "indoor_seating": "yes",
+        "name": "Flash Back Restaurant",
+        "outdoor_seating": "no",
+        "source": "survey:PFE(IT3) ENSTP Yaounde 2010",
+        "start_date": "2010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4946037,
+          3.850576
+        ]
+      },
+      "id": "node/2304346036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2314439518",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5009353,
+          3.8576484
+        ]
+      },
+      "id": "node/2314439518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2318065325",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5005816,
+          3.8406634
+        ]
+      },
+      "id": "node/2318065325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2322075101",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.496029,
+          3.9126242
+        ]
+      },
+      "id": "node/2322075101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2368816743",
+        "amenity": "restaurant",
+        "name": "Maison Blanche"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5273556,
+          3.8658761
+        ]
+      },
+      "id": "node/2368816743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2381876059",
+        "amenity": "restaurant",
+        "name": "Le Parallèle Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5233784,
+          3.8991612
+        ]
+      },
+      "id": "node/2381876059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2441215323",
+        "amenity": "restaurant",
+        "name": "Top Model Kola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5177878,
+          3.8730734
+        ]
+      },
+      "id": "node/2441215323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2450395470",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5209994,
+          3.8976786
+        ]
+      },
+      "id": "node/2450395470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2483564186",
+        "amenity": "restaurant",
+        "name": "Saint-Tropez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5127114,
+          3.8917943
+        ]
+      },
+      "id": "node/2483564186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2726206629",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "nseng",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5374966,
+          3.8730282
+        ]
+      },
+      "id": "node/2726206629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2738324273",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Chez Guy Marcel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5270052,
+          3.866954
+        ]
+      },
+      "id": "node/2738324273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2780509644",
+        "amenity": "restaurant",
+        "name": "Le Manek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5185007,
+          3.8879679
+        ]
+      },
+      "id": "node/2780509644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2962424684",
+        "amenity": "restaurant",
+        "name": "Le Gougnat",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.58707,
+          3.9626445
+        ]
+      },
+      "id": "node/2962424684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2964110864",
+        "amenity": "restaurant",
+        "opening_hours": "Mo-Su 07:00-20:00; Th 10:00-20:00",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5943704,
+          3.9745429
+        ]
+      },
+      "id": "node/2964110864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2996112462",
+        "amenity": "restaurant",
+        "microbrewery": "yes",
+        "name": "Les Délices",
+        "opening_hours": "Mo-Sa 08:00-15:00; Th 10:00-15:00",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5936807,
+          3.9743778
+        ]
+      },
+      "id": "node/2996112462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997240060",
+        "amenity": "restaurant",
+        "microbrewery": "yes",
+        "name": "Dejaco Snack Bar",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6009415,
+          3.9810531
+        ]
+      },
+      "id": "node/2997240060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997348081",
+        "amenity": "restaurant",
+        "cuisine": "cameroonian",
+        "name": "Restaurant VIP",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5931132,
+          3.9765655
+        ]
+      },
+      "id": "node/2997348081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997531368",
+        "amenity": "restaurant",
+        "name": "Resto Sexy Dackere 5 étoiles",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5936739,
+          3.9673347
+        ]
+      },
+      "id": "node/2997531368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997541410",
+        "amenity": "restaurant",
+        "microbrewery": "yes",
+        "name": "Chez Bouba",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5936958,
+          3.9654352
+        ]
+      },
+      "id": "node/2997541410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997541411",
+        "amenity": "restaurant",
+        "microbrewery": "yes",
+        "name": "Rue Street 22.",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.593692,
+          3.9654857
+        ]
+      },
+      "id": "node/2997541411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2998038849",
+        "amenity": "restaurant",
+        "microbrewery": "yes",
+        "name": "Le Carpatio au plat d'or",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5928336,
+          3.9676735
+        ]
+      },
+      "id": "node/2998038849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2998038855",
+        "amenity": "restaurant",
+        "name": "Rotisserie Ben-J",
+        "source": "Survey TSF Cameroun 2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5933826,
+          3.967522
+        ]
+      },
+      "id": "node/2998038855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3153728819",
+        "addr:city": "Yaoundé",
+        "addr:housenumber": "BP 1234 Yaoundé",
+        "addr:street": "Rue de Djoungolo",
+        "amenity": "restaurant",
+        "capacity": "4",
+        "contact:phone": "+237 98 08 98 56",
+        "cuisine": "international",
+        "name": "Restaurant Royal",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5181404,
+          3.8798812
+        ]
+      },
+      "id": "node/3153728819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3372957108",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Aux fines epices"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5029948,
+          3.887089
+        ]
+      },
+      "id": "node/3372957108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3372959695",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "237"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5168176,
+          3.8925495
+        ]
+      },
+      "id": "node/3372959695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3372988397",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "Rotisserie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5125827,
+          3.8920393
+        ]
+      },
+      "id": "node/3372988397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3463536119",
+        "amenity": "restaurant",
+        "name": "Saveurs Africaines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4891375,
+          3.8405835
+        ]
+      },
+      "id": "node/3463536119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3584401531",
+        "addr:city": "yaoundé I",
+        "amenity": "restaurant",
+        "name": "Iles du Wouri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5238977,
+          3.8795876
+        ]
+      },
+      "id": "node/3584401531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3584401532",
+        "addr:city": "yaoundé I",
+        "amenity": "restaurant",
+        "name": "Feuilles Vertes",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.523709,
+          3.8804842
+        ]
+      },
+      "id": "node/3584401532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3598243425",
+        "addr:street": "Rue de l'Université",
+        "amenity": "restaurant",
+        "capacity": "50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5045087,
+          3.8580384
+        ]
+      },
+      "id": "node/3598243425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3604566559",
+        "amenity": "restaurant",
+        "name": "Rue Case-Nègre",
+        "name:fr": "Rue Case-Nègre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5216279,
+          3.8688572
+        ]
+      },
+      "id": "node/3604566559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3997669293",
+        "amenity": "restaurant",
+        "name": "Katie Eru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5015105,
+          3.8636504
+        ]
+      },
+      "id": "node/3997669293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4189575189",
+        "addr:street": "Rue Martin Tabi Essomba",
+        "amenity": "restaurant",
+        "name": "Le Sawa",
+        "opening_hours": "Mo-Sa 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5283246,
+          3.8631102
+        ]
+      },
+      "id": "node/4189575189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4212966082",
+        "addr:street": "Rue de l'Université",
+        "amenity": "restaurant",
+        "cuisine": "senegalese",
+        "ele": "802",
+        "name": "Restaurant sénégalais",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5046316,
+          3.8583381
+        ]
+      },
+      "id": "node/4212966082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4221228989",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Douala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5037698,
+          3.8854063
+        ]
+      },
+      "id": "node/4221228989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4223061990",
+        "amenity": "restaurant",
+        "cuisine": "african;chicken;fish;ice_cream;local",
+        "name": "Flavours, Tsinga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5034786,
+          3.8841011
+        ]
+      },
+      "id": "node/4223061990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4223062189",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "Club des Amis, Tsinga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5006676,
+          3.8857992
+        ]
+      },
+      "id": "node/4223062189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362645746",
+        "addr:postcode": "BP 4824 yde",
+        "amenity": "restaurant",
+        "contact:email": "MvogoMessi.gb@gmail.com",
+        "contact:phone": "673466556",
+        "name": "Le Pichichi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5032736,
+          3.8624271
+        ]
+      },
+      "id": "node/4362645746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362645775",
+        "amenity": "restaurant",
+        "contact:phone": "677693212",
+        "name": "Restaurant chez Lucile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5039411,
+          3.8646307
+        ]
+      },
+      "id": "node/4362645775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362701992",
+        "amenity": "restaurant",
+        "contact:phone": "98290376/79815512",
+        "name": "AMERICAN FRIED CHICKEN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4936397,
+          3.861845
+        ]
+      },
+      "id": "node/4362701992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4433384789",
+        "amenity": "restaurant",
+        "name": "café resto chez bouda",
+        "name:fr": "café resto chez bouda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4737341,
+          3.8765531
+        ]
+      },
+      "id": "node/4433384789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4487342694",
+        "addr:postcode": "237",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Ye-lo",
+        "name:en": "Ye-lo",
+        "name:fr": "Ye-lo",
+        "opening_hours": "24/7",
+        "phone": "651-58",
+        "website": "http://yelowall.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5480481,
+          3.8923035
+        ]
+      },
+      "id": "node/4487342694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4691479117",
+        "amenity": "restaurant",
+        "name": "Restaurant Snack-Bar Le Partenaire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5199419,
+          3.883947
+        ]
+      },
+      "id": "node/4691479117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4795272826",
+        "addr:street": "Rue 2.043",
+        "amenity": "restaurant",
+        "name": "Restaurant sénégalais"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5080071,
+          3.8767078
+        ]
+      },
+      "id": "node/4795272826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4933980224",
+        "addr:street": "Avenue Germaine Ahidjo",
+        "amenity": "restaurant",
+        "cuisine": "burger;african;sandwich;international;grill;steak_house;greek;lebanese;spanish;chicken;diner;brazilian;arab;curry;turkish;fish;hotdog;french;argentinian;friture;american;german;kebab;barbecue;tapas",
+        "name": "Karoka BBQ service",
+        "name:de": "Karoka BBQ service",
+        "name:en": "Karoka BBQ service",
+        "name:fr": "Karoka BBQ service",
+        "opening_hours": "Mo-Sa 12:00-00:00",
+        "operator": "Yannick",
+        "phone": "+237674672040",
+        "website": "https://www.facebook.com/karokabbq/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.533672,
+          3.8710733
+        ]
+      },
+      "id": "node/4933980224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4986682821",
+        "amenity": "restaurant",
+        "name": "taro essos",
+        "name:fr": "taro essos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5458408,
+          3.8753437
+        ]
+      },
+      "id": "node/4986682821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5071940721",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "vietnamese",
+        "name:fr": "La Paillote"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5249389,
+          3.8768901
+        ]
+      },
+      "id": "node/5071940721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5176139432",
+        "addr:city": "Yaoundé II",
+        "addr:street": "Rue Joseph Mballa Eloumden",
+        "amenity": "restaurant",
+        "name": "Royal Grill",
+        "opening_hours": "24/7",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5129599,
+          3.8918913
+        ]
+      },
+      "id": "node/5176139432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5177710525",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Manuba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5024307,
+          3.8870088
+        ]
+      },
+      "id": "node/5177710525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179789949",
+        "addr:city": "Yaoundé I",
+        "addr:street": "Rue de Narvik",
+        "amenity": "restaurant",
+        "name": "Boukarou Lounge",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+237 6 95 45 28 28",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5158822,
+          3.8722173
+        ]
+      },
+      "id": "node/5179789949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5275093747",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "name": "La pannetiere"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5176576,
+          3.8859168
+        ]
+      },
+      "id": "node/5275093747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302188222",
+        "amenity": "restaurant",
+        "name": "Café Do Ré"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5062146,
+          3.5211305
+        ]
+      },
+      "id": "node/5302188222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5416926923",
+        "addr:street": "Rue Jean Abanda",
+        "amenity": "restaurant",
+        "cuisine": "african;french;italian_pizza",
+        "diet:vegetarian": "yes",
+        "fixme": "phone number seems wrong",
+        "internet_access": "wlan",
+        "name": "Bifteck 5 Stars",
+        "opening_hours": "24/7",
+        "operator": "Wouri Essos",
+        "phone": "+2376652959628",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5391709,
+          3.8738061
+        ]
+      },
+      "id": "node/5416926923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5510051723",
+        "amenity": "restaurant",
+        "cuisine": "barbecue",
+        "name": "Spicy grill",
+        "name:fr": "Maison du talon",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+237655745369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5004521,
+          3.8872947
+        ]
+      },
+      "id": "node/5510051723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5554472621",
+        "amenity": "restaurant",
+        "cuisine": "international;local;african",
+        "name": "Bayama",
+        "name:en": "bayama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5313482,
+          4.1561789
+        ]
+      },
+      "id": "node/5554472621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5650210745",
+        "amenity": "restaurant",
+        "name": "Yao'Ba",
+        "phone": "+237699495555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5166113,
+          3.8867763
+        ]
+      },
+      "id": "node/5650210745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5680784421",
+        "addr:housenumber": "01",
+        "addr:postcode": "16374",
+        "addr:street": "Rue 1.001",
+        "amenity": "restaurant",
+        "cuisine": "chicken;friture;african;fish;breakfast;fine_dining;tea;coffee_shop",
+        "email": "latonje@gmail.com",
+        "internet_access": "wlan",
+        "name": "Le Premium",
+        "opening_hours": "Mo-Sa 07:00-18:00",
+        "phone": "+237655605636",
+        "website": "http://www.restaurantlepremium.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5213658,
+          3.8610427
+        ]
+      },
+      "id": "node/5680784421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5731757968",
+        "amenity": "restaurant",
+        "contact:phone": "677771405",
+        "cuisine": "pizza",
+        "name": "Pizzeria la Maria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5081063,
+          3.8933006
+        ]
+      },
+      "id": "node/5731757968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5764947253",
+        "amenity": "restaurant",
+        "name": "PRINTEMPS carrefour jamot",
+        "survey:date": "2022-12-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.524263,
+          3.8986453
+        ]
+      },
+      "id": "node/5764947253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5776915854",
+        "amenity": "restaurant",
+        "name": "Restaurant ENAM",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5103526,
+          3.8619518
+        ]
+      },
+      "id": "node/5776915854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5820857576",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Lampeduza",
+        "phone": "+237 690113921"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4999685,
+          3.8419013
+        ]
+      },
+      "id": "node/5820857576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6042816157",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4916318,
+          3.8866437
+        ]
+      },
+      "id": "node/6042816157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6042816158",
+        "amenity": "restaurant",
+        "name": "Le Ndok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4924826,
+          3.8814277
+        ]
+      },
+      "id": "node/6042816158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6282216585",
+        "amenity": "restaurant",
+        "contact:phone": "677075058",
+        "name": "African Queen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5115434,
+          3.891858
+        ]
+      },
+      "id": "node/6282216585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6282216586",
+        "amenity": "restaurant",
+        "name": "Penja land"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5443719,
+          3.8761189
+        ]
+      },
+      "id": "node/6282216586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6308029359",
+        "addr:street": "Rue du Maréchal Foch",
+        "amenity": "restaurant",
+        "ele": "733",
+        "indoor_seating": "yes",
+        "name": "Chez tonton andré",
+        "outdoor_seating": "yes",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5150291,
+          3.8705729
+        ]
+      },
+      "id": "node/6308029359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6308090899",
+        "amenity": "restaurant",
+        "capacity": "145",
+        "cuisine": "regional",
+        "source": "survey:PFE(IT3) ENSTP Yaounde 2010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5121806,
+          3.8645436
+        ]
+      },
+      "id": "node/6308090899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6308170733",
+        "amenity": "restaurant",
+        "name": "Les Cigalons",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5184878,
+          3.8742592
+        ]
+      },
+      "id": "node/6308170733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6308327839",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "name": "ô Maeva Club",
+        "phone": "+237 2 22 02 42 00",
+        "smoking": "yes",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5188807,
+          3.8723699
+        ]
+      },
+      "id": "node/6308327839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6310433848",
+        "amenity": "restaurant",
+        "name": "La Terrasse",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5200475,
+          3.8694529
+        ]
+      },
+      "id": "node/6310433848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6310583396",
+        "amenity": "restaurant",
+        "cuisine": "cameroonian",
+        "name": "Le Bois d'Ébène"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5237918,
+          3.869655
+        ]
+      },
+      "id": "node/6310583396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315935385",
+        "amenity": "restaurant",
+        "check_date": "2023-12-05",
+        "contact:phone": "+237 6 99 68 91 16",
+        "cuisine": "indian",
+        "name": "Mahima Restaurant",
+        "name:fr": "Mahima",
+        "opening_hours": "Tu-Su 10:30-22:30",
+        "source": "sobzeros",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5253361,
+          3.8780786
+        ]
+      },
+      "id": "node/6315935385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315935389",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "name": "Restaurant Le Bacchus",
+        "opening_hours": "Tu-Su 12:00-22:00",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5256694,
+          3.8775347
+        ]
+      },
+      "id": "node/6315935389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315935667",
+        "amenity": "restaurant",
+        "cuisine": "spanish",
+        "name": "Le Moulin de Don Quichotte",
+        "source": "fischerfotos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5171031,
+          3.8777334
+        ]
+      },
+      "id": "node/6315935667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6316023158",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Restaurant Chinois Village",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5123341,
+          3.8876475
+        ]
+      },
+      "id": "node/6316023158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6316081653",
+        "amenity": "restaurant",
+        "name": "Socrate",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5038791,
+          3.8869384
+        ]
+      },
+      "id": "node/6316081653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337717308",
+        "FONCTION": "Restaurant",
+        "amenity": "restaurant",
+        "name": "Food square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.507535,
+          3.8963887
+        ]
+      },
+      "id": "node/6337717308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337737144",
+        "FONCTION": "restaurant",
+        "amenity": "restaurant",
+        "name": "Bar restaurant Ma Etoundi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5133205,
+          3.903931
+        ]
+      },
+      "id": "node/6337737144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337753326",
+        "amenity": "restaurant",
+        "name": "Restaurant Kazoo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5147498,
+          3.9029959
+        ]
+      },
+      "id": "node/6337753326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337772271",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "email": "kajazoma3000@gmail.com",
+        "name": "Kajazoma",
+        "phone": "+237 678921865",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5123916,
+          3.9003065
+        ]
+      },
+      "id": "node/6337772271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337780449",
+        "amenity": "restaurant",
+        "name": "Julia food house restaurant bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5182678,
+          3.8986419
+        ]
+      },
+      "id": "node/6337780449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337819786",
+        "amenity": "restaurant",
+        "name": "All Stars Sports Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5183859,
+          3.8962416
+        ]
+      },
+      "id": "node/6337819786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337860071",
+        "FONCTION": "Restaurant",
+        "amenity": "restaurant",
+        "contact:phone": "22209277",
+        "name": "bar-restaurant \"la RIVIERA\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5212577,
+          3.8932569
+        ]
+      },
+      "id": "node/6337860071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337874068",
+        "amenity": "restaurant",
+        "name": "Complexe Kouotou restaurant, laverie, snack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5193367,
+          3.8928176
+        ]
+      },
+      "id": "node/6337874068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337881880",
+        "amenity": "restaurant",
+        "cuisine": "african;european",
+        "name": "Le new coq Blanc",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5190135,
+          3.893023
+        ]
+      },
+      "id": "node/6337881880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337898841",
+        "amenity": "restaurant",
+        "cuisine": "african;breakfast;grill;crepe;sausage;friture;steak_house;pizza;chicken;barbecue",
+        "name": "O BARBECUE RESTAURANT",
+        "name:fr": "O'BARBECUE RESTAURANT",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 10:00-23:30",
+        "phone": "+237655007325"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5181314,
+          3.8919486
+        ]
+      },
+      "id": "node/6337898841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337898842",
+        "amenity": "restaurant",
+        "contact:phone": "679061156",
+        "name": "Il PASTAIO street food & caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5180815,
+          3.8919499
+        ]
+      },
+      "id": "node/6337898842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337907666",
+        "amenity": "restaurant",
+        "contact:phone": "656058648",
+        "name": "New journey restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5176543,
+          3.890082
+        ]
+      },
+      "id": "node/6337907666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337914761",
+        "amenity": "restaurant",
+        "name": "Le Wenge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5172473,
+          3.8907972
+        ]
+      },
+      "id": "node/6337914761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337918822",
+        "FONCTION": "Restaurant",
+        "amenity": "restaurant",
+        "contact:phone": "678606565",
+        "cuisine": "pizza",
+        "name": "Camaroes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.517779,
+          3.8927661
+        ]
+      },
+      "id": "node/6337918822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337930605",
+        "amenity": "restaurant",
+        "name": "Le Piroguier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5164359,
+          3.8934719
+        ]
+      },
+      "id": "node/6337930605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339403866",
+        "amenity": "restaurant",
+        "contact:phone": "222208960",
+        "name": "Le MEURICE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5128645,
+          3.8882269
+        ]
+      },
+      "id": "node/6339403866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339409977",
+        "amenity": "restaurant",
+        "contact:instagram": "cosy_pool",
+        "cuisine": "french",
+        "name": "Cosy Pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5117876,
+          3.8866253
+        ]
+      },
+      "id": "node/6339409977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339415793",
+        "amenity": "restaurant",
+        "name": "Bonnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5124984,
+          3.8842289
+        ]
+      },
+      "id": "node/6339415793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339418924",
+        "amenity": "restaurant",
+        "name": "Tchop et yamo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5026111,
+          3.8873297
+        ]
+      },
+      "id": "node/6339418924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339437810",
+        "amenity": "restaurant",
+        "name": "Espace sénateurs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5004218,
+          3.8936967
+        ]
+      },
+      "id": "node/6339437810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339444635",
+        "amenity": "restaurant",
+        "name": "Le maghy's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5039864,
+          3.8970163
+        ]
+      },
+      "id": "node/6339444635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339449284",
+        "amenity": "restaurant",
+        "name": "Restaurant Kimchi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5069784,
+          3.8912454
+        ]
+      },
+      "id": "node/6339449284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339477466",
+        "amenity": "restaurant",
+        "name": "Piadina caffe et restaurante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5072232,
+          3.8926992
+        ]
+      },
+      "id": "node/6339477466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339483268",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "La Salsa",
+        "phone": "656077575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5076939,
+          3.8933408
+        ]
+      },
+      "id": "node/6339483268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339512081",
+        "amenity": "restaurant",
+        "contact:phone": "674323232",
+        "name": "Mask bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5088083,
+          3.8930979
+        ]
+      },
+      "id": "node/6339512081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339517279",
+        "amenity": "restaurant",
+        "contact:phone": "677542750",
+        "cuisine": "chicken",
+        "name": "Rotisserie Alino",
+        "source": "sobzeros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5100086,
+          3.8927407
+        ]
+      },
+      "id": "node/6339517279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339537312",
+        "addr:housenumber": "1298",
+        "amenity": "restaurant",
+        "contact:phone": "699333333",
+        "cuisine": "pizza",
+        "name": "Pizza Roma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5113464,
+          3.8926249
+        ]
+      },
+      "id": "node/6339537312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339547604",
+        "addr:city": "yaoundé",
+        "addr:street": "Carrefour Bastos",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "delivery": "yes",
+        "name": "Le Baron",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "680 00 00 40 / 680 00 00 90",
+        "source": "knowledge",
+        "takeaway": "yes",
+        "website": "https://fr-fr.facebook.com/Lebaron-141985073120725/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5120338,
+          3.8927111
+        ]
+      },
+      "id": "node/6339547604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339552057",
+        "amenity": "restaurant",
+        "name": "Les delices du gourmet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5116315,
+          3.8929268
+        ]
+      },
+      "id": "node/6339552057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339552058",
+        "amenity": "restaurant",
+        "name": "P'tite faim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5118472,
+          3.8930081
+        ]
+      },
+      "id": "node/6339552058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339557868",
+        "addr:place": "Bastos-Laboratoire Méka",
+        "addr:postcode": "1687",
+        "amenity": "restaurant",
+        "contact:phone": "655 245194",
+        "cuisine": "african;european",
+        "name": "Le Jardin de Lisa",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.510924,
+          3.8954669
+        ]
+      },
+      "id": "node/6339557868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339561371",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "L'Orient Rouge",
+        "name:fr": "L'Orient Rouge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5073003,
+          3.8946881
+        ]
+      },
+      "id": "node/6339561371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339562820",
+        "amenity": "restaurant",
+        "name": "Terrific coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5070643,
+          3.8954468
+        ]
+      },
+      "id": "node/6339562820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6454900185",
+        "addr:street": "Espace André Fouda. A côte du supermarché Mahima",
+        "amenity": "restaurant",
+        "name": "Rue des Délices"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5148315,
+          3.8706995
+        ]
+      },
+      "id": "node/6454900185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6471967185",
+        "amenity": "restaurant",
+        "name": "Spécialité \" congo meat \""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5488965,
+          3.892868
+        ]
+      },
+      "id": "node/6471967185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6538568085",
+        "alt_name": "Boun's",
+        "amenity": "restaurant",
+        "name": "Bouns hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5175663,
+          3.8673193
+        ]
+      },
+      "id": "node/6538568085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6611867220",
+        "amenity": "restaurant",
+        "name": "18eme arrondissement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5352489,
+          3.8703642
+        ]
+      },
+      "id": "node/6611867220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6720137792",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Chez Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.515343,
+          3.88491
+        ]
+      },
+      "id": "node/6720137792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6772024175",
+        "amenity": "restaurant",
+        "check_date": "2023-12-23",
+        "cuisine": "regional",
+        "indoor_seating": "yes",
+        "name": "Délices du Pays",
+        "outdoor_seating": "no",
+        "phone": "+237 6 99 44 20 72"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4939878,
+          3.8504036
+        ]
+      },
+      "id": "node/6772024175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6979871485",
+        "addr:street": "Rue 1.302",
+        "amenity": "restaurant",
+        "name": "The outsiders"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.538798,
+          3.8805307
+        ]
+      },
+      "id": "node/6979871485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7070016885",
+        "amenity": "restaurant",
+        "name": "White House Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5182432,
+          3.8938013
+        ]
+      },
+      "id": "node/7070016885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7078151785",
+        "amenity": "restaurant",
+        "cuisine": "african",
+        "name": "Loz food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5438267,
+          3.889691
+        ]
+      },
+      "id": "node/7078151785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166060832",
+        "addr:postcode": "B.p: 13704 Yaoundé - cameroun",
+        "amenity": "restaurant",
+        "name": "Saint Monaco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4810902,
+          3.871548
+        ]
+      },
+      "id": "node/7166060832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166060833",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4795731,
+          3.8726153
+        ]
+      },
+      "id": "node/7166060833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166060834",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4813591,
+          3.8715944
+        ]
+      },
+      "id": "node/7166060834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166060835",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4794701,
+          3.8729378
+        ]
+      },
+      "id": "node/7166060835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166060836",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 675120246",
+        "name": "Restaurant Sael"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4824689,
+          3.8718128
+        ]
+      },
+      "id": "node/7166060836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166060837",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4822635,
+          3.8718091
+        ]
+      },
+      "id": "node/7166060837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166061354",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4835658,
+          3.8768945
+        ]
+      },
+      "id": "node/7166061354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166061355",
+        "amenity": "restaurant",
+        "name": "La Joie De Vivre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4840462,
+          3.8767312
+        ]
+      },
+      "id": "node/7166061355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166063769",
+        "amenity": "restaurant",
+        "name": "Super Kossam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4743225,
+          3.8751755
+        ]
+      },
+      "id": "node/7166063769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166063770",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.474149,
+          3.875307
+        ]
+      },
+      "id": "node/7166063770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166063771",
+        "amenity": "restaurant",
+        "name": "Connexion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4734427,
+          3.8756305
+        ]
+      },
+      "id": "node/7166063771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166063772",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4732832,
+          3.8759069
+        ]
+      },
+      "id": "node/7166063772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166063773",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.473214,
+          3.8755012
+        ]
+      },
+      "id": "node/7166063773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166066680",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4712112,
+          3.8768693
+        ]
+      },
+      "id": "node/7166066680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166066681",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4715831,
+          3.8766703
+        ]
+      },
+      "id": "node/7166066681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166066682",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.472679,
+          3.8786831
+        ]
+      },
+      "id": "node/7166066682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166067886",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4671442,
+          3.8715633
+        ]
+      },
+      "id": "node/7166067886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166067887",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4672756,
+          3.8743416
+        ]
+      },
+      "id": "node/7166067887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166067888",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4653973,
+          3.8740279
+        ]
+      },
+      "id": "node/7166067888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166080737",
+        "amenity": "restaurant",
+        "name": "Vas Et Viens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4813008,
+          3.8774554
+        ]
+      },
+      "id": "node/7166080737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166080738",
+        "amenity": "restaurant",
+        "name": "Rustic-home"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4830674,
+          3.8783339
+        ]
+      },
+      "id": "node/7166080738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166083409",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4551566,
+          3.8989098
+        ]
+      },
+      "id": "node/7166083409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166083410",
+        "amenity": "restaurant",
+        "contact:phone": "(+237)699646539",
+        "name": "Ets Katamour"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4555468,
+          3.89706
+        ]
+      },
+      "id": "node/7166083410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166083411",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4545226,
+          3.8981261
+        ]
+      },
+      "id": "node/7166083411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166083412",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4547122,
+          3.8979828
+        ]
+      },
+      "id": "node/7166083412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166085255",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4497335,
+          3.853139
+        ]
+      },
+      "id": "node/7166085255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166085256",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4497505,
+          3.8531622
+        ]
+      },
+      "id": "node/7166085256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166085257",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.456692,
+          3.8485755
+        ]
+      },
+      "id": "node/7166085257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166085258",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4516771,
+          3.8454543
+        ]
+      },
+      "id": "node/7166085258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166085259",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4496747,
+          3.8530738
+        ]
+      },
+      "id": "node/7166085259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166085260",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4497153,
+          3.8531134
+        ]
+      },
+      "id": "node/7166085260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166092153",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 681560120",
+        "name": "Chez Fimbus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4764385,
+          3.8743352
+        ]
+      },
+      "id": "node/7166092153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166092154",
+        "amenity": "restaurant",
+        "name": "Chez Maimouna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.476409,
+          3.8745432
+        ]
+      },
+      "id": "node/7166092154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166092155",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4766462,
+          3.8744112
+        ]
+      },
+      "id": "node/7166092155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166096866",
+        "amenity": "restaurant",
+        "name": "Maa Tu Resto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4537572,
+          3.8846103
+        ]
+      },
+      "id": "node/7166096866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166096867",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 694181722",
+        "name": "Maa Nina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4535764,
+          3.8843952
+        ]
+      },
+      "id": "node/7166096867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166096868",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4535675,
+          3.8843784
+        ]
+      },
+      "id": "node/7166096868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166096869",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4533404,
+          3.8840956
+        ]
+      },
+      "id": "node/7166096869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166103083",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4679411,
+          3.8920975
+        ]
+      },
+      "id": "node/7166103083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166103084",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4677815,
+          3.8921506
+        ]
+      },
+      "id": "node/7166103084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166108469",
+        "amenity": "restaurant",
+        "name": "Liobot Resto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4577611,
+          3.8876827
+        ]
+      },
+      "id": "node/7166108469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166108470",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4582072,
+          3.8879997
+        ]
+      },
+      "id": "node/7166108470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166109546",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4471719,
+          3.8641128
+        ]
+      },
+      "id": "node/7166109546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166113668",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4523587,
+          3.8822119
+        ]
+      },
+      "id": "node/7166113668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166113669",
+        "amenity": "restaurant",
+        "name": "Club Bêtis Resto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4518587,
+          3.882394
+        ]
+      },
+      "id": "node/7166113669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166115066",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4448786,
+          3.8826995
+        ]
+      },
+      "id": "node/7166115066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166117685",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4718513,
+          3.8925101
+        ]
+      },
+      "id": "node/7166117685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166122074",
+        "amenity": "restaurant",
+        "name": "Ks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4561407,
+          3.8901208
+        ]
+      },
+      "id": "node/7166122074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166122075",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.462696,
+          3.8893998
+        ]
+      },
+      "id": "node/7166122075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166123692",
+        "amenity": "restaurant",
+        "name": "Resto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4494861,
+          3.875706
+        ]
+      },
+      "id": "node/7166123692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166123693",
+        "amenity": "restaurant",
+        "name": "Le Cendrillon Cafe Restau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4481682,
+          3.8752488
+        ]
+      },
+      "id": "node/7166123693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166123694",
+        "amenity": "restaurant",
+        "name": "Nyango Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4511625,
+          3.8778289
+        ]
+      },
+      "id": "node/7166123694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166123695",
+        "amenity": "restaurant",
+        "name": "Restaurant Le Bien Etre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4511115,
+          3.8765399
+        ]
+      },
+      "id": "node/7166123695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166123696",
+        "amenity": "restaurant",
+        "check_date": "2023-12-26",
+        "name": "Grillade de Dame NAMA NTSE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4519369,
+          3.8751405
+        ]
+      },
+      "id": "node/7166123696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166123697",
+        "amenity": "restaurant",
+        "name": "Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4495967,
+          3.8755334
+        ]
+      },
+      "id": "node/7166123697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166134786",
+        "amenity": "restaurant",
+        "name": "Jeda Space"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4326546,
+          3.8750274
+        ]
+      },
+      "id": "node/7166134786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166134787",
+        "amenity": "restaurant",
+        "name": "G-black"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4327562,
+          3.8745112
+        ]
+      },
+      "id": "node/7166134787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166134835",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4268282,
+          3.8681908
+        ]
+      },
+      "id": "node/7166134835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166134836",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4268236,
+          3.8682699
+        ]
+      },
+      "id": "node/7166134836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166136501",
+        "amenity": "restaurant",
+        "name": "Bar Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4602325,
+          3.862874
+        ]
+      },
+      "id": "node/7166136501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166136502",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4551617,
+          3.8659201
+        ]
+      },
+      "id": "node/7166136502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166136503",
+        "amenity": "restaurant",
+        "name": "Le Bazar Du Camp Africain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4615865,
+          3.8661541
+        ]
+      },
+      "id": "node/7166136503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166136687",
+        "amenity": "restaurant",
+        "check_date": "2023-12-26",
+        "cuisine": "pizza;regional",
+        "name": "Flavour Jcs",
+        "phone": "+237 6 70 49 62 33; +237 6 77 65 28 01",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4553457,
+          3.8725944
+        ]
+      },
+      "id": "node/7166136687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166136688",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4540917,
+          3.8742221
+        ]
+      },
+      "id": "node/7166136688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166136689",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4528754,
+          3.8727899
+        ]
+      },
+      "id": "node/7166136689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166136690",
+        "amenity": "restaurant",
+        "name": "Ets Maison Rose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4590422,
+          3.8730594
+        ]
+      },
+      "id": "node/7166136690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166141390",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4810549,
+          3.8831973
+        ]
+      },
+      "id": "node/7166141390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166152011",
+        "amenity": "restaurant",
+        "name": "Le Dogel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4688817,
+          3.8814324
+        ]
+      },
+      "id": "node/7166152011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166153922",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4133197,
+          3.8745696
+        ]
+      },
+      "id": "node/7166153922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166154016",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4310125,
+          3.8827994
+        ]
+      },
+      "id": "node/7166154016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166154017",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4227816,
+          3.8770743
+        ]
+      },
+      "id": "node/7166154017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7166168187",
+        "amenity": "restaurant",
+        "name": "Husline Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4743185,
+          3.8717818
+        ]
+      },
+      "id": "node/7166168187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176969885",
+        "amenity": "restaurant",
+        "cuisine": "barbecue;steak_house;fish;local",
+        "email": "sylvainonguene7@gmail.com",
+        "name": "Pieds dans l'eau",
+        "opening_hours": "Mo-Su 07:30-00:00",
+        "phone": "677357155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6048335,
+          3.992253
+        ]
+      },
+      "id": "node/7176969885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218847179",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.561442,
+          3.915803
+        ]
+      },
+      "id": "node/7218847179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218893655",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5393477,
+          3.9219329
+        ]
+      },
+      "id": "node/7218893655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218911227",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5446118,
+          3.9312822
+        ]
+      },
+      "id": "node/7218911227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218917097",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5389242,
+          3.9219897
+        ]
+      },
+      "id": "node/7218917097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218919937",
+        "amenity": "restaurant",
+        "name": "Restaurant Wurey Bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5389557,
+          3.9177577
+        ]
+      },
+      "id": "node/7218919937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218921088",
+        "amenity": "restaurant",
+        "name": "Guyso Café Resto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5432265,
+          3.9311661
+        ]
+      },
+      "id": "node/7218921088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218924287",
+        "amenity": "restaurant",
+        "name": "Restaurant Zili Vip"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5389892,
+          3.9179265
+        ]
+      },
+      "id": "node/7218924287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218927825",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5614071,
+          3.9172995
+        ]
+      },
+      "id": "node/7218927825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218928030",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5611181,
+          3.9173597
+        ]
+      },
+      "id": "node/7218928030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218951700",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.561201,
+          3.9111799
+        ]
+      },
+      "id": "node/7218951700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218954417",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5615905,
+          3.9143496
+        ]
+      },
+      "id": "node/7218954417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218980545",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.562362,
+          3.9083551
+        ]
+      },
+      "id": "node/7218980545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7218992325",
+        "amenity": "restaurant",
+        "name": "La Touche De La Mère"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5665919,
+          3.9073295
+        ]
+      },
+      "id": "node/7218992325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219017333",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5695778,
+          3.9089993
+        ]
+      },
+      "id": "node/7219017333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219032555",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5658261,
+          3.9072961
+        ]
+      },
+      "id": "node/7219032555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219112401",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5652829,
+          3.9065013
+        ]
+      },
+      "id": "node/7219112401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219151587",
+        "amenity": "restaurant",
+        "name": "Cafe Restaurant Le Bon Goût"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5623788,
+          3.906983
+        ]
+      },
+      "id": "node/7219151587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219183915",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5605716,
+          3.9048262
+        ]
+      },
+      "id": "node/7219183915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219190812",
+        "amenity": "restaurant",
+        "name": "Dubai Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.568688,
+          3.8988253
+        ]
+      },
+      "id": "node/7219190812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219228946",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5680476,
+          3.8989229
+        ]
+      },
+      "id": "node/7219228946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219253429",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5669459,
+          3.899509
+        ]
+      },
+      "id": "node/7219253429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219263960",
+        "amenity": "restaurant",
+        "name": "Daly Resto-bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5655673,
+          3.8995307
+        ]
+      },
+      "id": "node/7219263960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219266122",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5662713,
+          3.8998147
+        ]
+      },
+      "id": "node/7219266122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219339259",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5644652,
+          3.9020963
+        ]
+      },
+      "id": "node/7219339259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219345999",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5639817,
+          3.9004422
+        ]
+      },
+      "id": "node/7219345999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219387563",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5671689,
+          3.8928096
+        ]
+      },
+      "id": "node/7219387563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219395827",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5509197,
+          3.9099052
+        ]
+      },
+      "id": "node/7219395827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219412642",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.566157,
+          3.8927249
+        ]
+      },
+      "id": "node/7219412642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219464938",
+        "amenity": "restaurant",
+        "name": "Le Doublon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5655605,
+          3.8915137
+        ]
+      },
+      "id": "node/7219464938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7219483374",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5615081,
+          3.8798411
+        ]
+      },
+      "id": "node/7219483374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230528870",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 691959677",
+        "name": "Restaurant Bar Africain La Case"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5228127,
+          3.8611082
+        ]
+      },
+      "id": "node/7230528870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230569963",
+        "amenity": "restaurant",
+        "name": "Bar Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5233714,
+          3.8607201
+        ]
+      },
+      "id": "node/7230569963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230584147",
+        "amenity": "restaurant",
+        "name": "Restaurant Sawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5265958,
+          3.8629102
+        ]
+      },
+      "id": "node/7230584147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230588735",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5217061,
+          3.8590131
+        ]
+      },
+      "id": "node/7230588735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230591178",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5293599,
+          3.8625355
+        ]
+      },
+      "id": "node/7230591178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230591335",
+        "amenity": "restaurant",
+        "name": "Le Finisterien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5214895,
+          3.8601207
+        ]
+      },
+      "id": "node/7230591335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230593130",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 656163082",
+        "name": "Restaurant Senegalais Malekoum Salam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5252448,
+          3.8626607
+        ]
+      },
+      "id": "node/7230593130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230593131",
+        "amenity": "restaurant",
+        "contact:email": "ltfrestaurant@gmail.com",
+        "name": "La Table De François"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.526357,
+          3.8632668
+        ]
+      },
+      "id": "node/7230593131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230597908",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 679269470",
+        "name": "Restaurant Bar Les Boukinistes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5228558,
+          3.8612002
+        ]
+      },
+      "id": "node/7230597908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230599367",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 677741123",
+        "name": "La Forêt Dense"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5228797,
+          3.8621984
+        ]
+      },
+      "id": "node/7230599367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230602016",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5250299,
+          3.8621278
+        ]
+      },
+      "id": "node/7230602016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230606217",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 696143638",
+        "name": "Restaurant Kilimandjaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5261802,
+          3.8627573
+        ]
+      },
+      "id": "node/7230606217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230608748",
+        "amenity": "restaurant",
+        "name": "African Dream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5271232,
+          3.8650166
+        ]
+      },
+      "id": "node/7230608748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230614041",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5252865,
+          3.8657733
+        ]
+      },
+      "id": "node/7230614041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230615605",
+        "amenity": "restaurant",
+        "name": "Zone Cemac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5317379,
+          3.8633049
+        ]
+      },
+      "id": "node/7230615605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230615606",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5284549,
+          3.8637933
+        ]
+      },
+      "id": "node/7230615606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230615610",
+        "amenity": "restaurant",
+        "name": "Le Saoudien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5323055,
+          3.8671284
+        ]
+      },
+      "id": "node/7230615610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230615643",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5337512,
+          3.8685474
+        ]
+      },
+      "id": "node/7230615643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230617433",
+        "amenity": "restaurant",
+        "name": "O Terroir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5272615,
+          3.8632824
+        ]
+      },
+      "id": "node/7230617433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230625788",
+        "amenity": "restaurant",
+        "name": "Balcon Bar-resto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5288049,
+          3.8633628
+        ]
+      },
+      "id": "node/7230625788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230626390",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5283525,
+          3.8635957
+        ]
+      },
+      "id": "node/7230626390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230627431",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 698662918",
+        "name": "Merhodia Plus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5273706,
+          3.8639606
+        ]
+      },
+      "id": "node/7230627431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230627443",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.52836,
+          3.8656586
+        ]
+      },
+      "id": "node/7230627443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230628860",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5291616,
+          3.8668749
+        ]
+      },
+      "id": "node/7230628860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230628872",
+        "amenity": "restaurant",
+        "name": "Le Coeur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5330135,
+          3.8688453
+        ]
+      },
+      "id": "node/7230628872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230630481",
+        "amenity": "restaurant",
+        "name": "C.m.v"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5362661,
+          3.8682306
+        ]
+      },
+      "id": "node/7230630481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230637818",
+        "amenity": "restaurant",
+        "name": "Foodsquare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5262236,
+          3.8679042
+        ]
+      },
+      "id": "node/7230637818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230650612",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5252796,
+          3.8658017
+        ]
+      },
+      "id": "node/7230650612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230650613",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 671058435",
+        "name": "Le Couloir De Mémé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5273186,
+          3.8667732
+        ]
+      },
+      "id": "node/7230650613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230651246",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5348191,
+          3.8659754
+        ]
+      },
+      "id": "node/7230651246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230651953",
+        "amenity": "restaurant",
+        "name": "The Craft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5282105,
+          3.8677596
+        ]
+      },
+      "id": "node/7230651953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230653131",
+        "amenity": "restaurant",
+        "name": "Restaurant Le Bonapriso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5280177,
+          3.8700738
+        ]
+      },
+      "id": "node/7230653131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230655209",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 677753356",
+        "name": "Restaurant Ngand'a Fumée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5295093,
+          3.8672308
+        ]
+      },
+      "id": "node/7230655209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230660149",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5324631,
+          3.8652946
+        ]
+      },
+      "id": "node/7230660149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230660150",
+        "amenity": "restaurant",
+        "name": "Vente De Poisson Braisé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5357216,
+          3.868531
+        ]
+      },
+      "id": "node/7230660150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230660174",
+        "amenity": "restaurant",
+        "name": "Watzapp Plus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5501511,
+          3.87467
+        ]
+      },
+      "id": "node/7230660174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230660901",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5315656,
+          3.8679757
+        ]
+      },
+      "id": "node/7230660901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230667913",
+        "amenity": "restaurant",
+        "name": "L'eden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5300699,
+          3.8690378
+        ]
+      },
+      "id": "node/7230667913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230669183",
+        "amenity": "restaurant",
+        "name": "Chez Maxime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5322864,
+          3.8680791
+        ]
+      },
+      "id": "node/7230669183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230669812",
+        "amenity": "restaurant",
+        "name": "Makom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5348362,
+          3.8684564
+        ]
+      },
+      "id": "node/7230669812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230681055",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5318252,
+          3.8681152
+        ]
+      },
+      "id": "node/7230681055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230689887",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5317285,
+          3.8689077
+        ]
+      },
+      "id": "node/7230689887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230690435",
+        "amenity": "restaurant",
+        "name": "Le Marseillais Au Vélodrome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5326649,
+          3.8682379
+        ]
+      },
+      "id": "node/7230690435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230700003",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5319307,
+          3.8687351
+        ]
+      },
+      "id": "node/7230700003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230700249",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5505197,
+          3.8747235
+        ]
+      },
+      "id": "node/7230700249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230702052",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5501412,
+          3.8747088
+        ]
+      },
+      "id": "node/7230702052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241781412",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5331856,
+          3.8719009
+        ]
+      },
+      "id": "node/7241781412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241787426",
+        "amenity": "restaurant",
+        "name": "Restaurant Chicken Run"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5323722,
+          3.8723244
+        ]
+      },
+      "id": "node/7241787426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241793595",
+        "amenity": "restaurant",
+        "name": "La Pause 555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5333499,
+          3.8718621
+        ]
+      },
+      "id": "node/7241793595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241797467",
+        "amenity": "restaurant",
+        "name": "La Kompressor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.534751,
+          3.8742104
+        ]
+      },
+      "id": "node/7241797467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241797702",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.535787,
+          3.8718838
+        ]
+      },
+      "id": "node/7241797702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241797925",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5305389,
+          3.8755708
+        ]
+      },
+      "id": "node/7241797925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241804511",
+        "amenity": "restaurant",
+        "name": "Leevan Le Grand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5358638,
+          3.871637
+        ]
+      },
+      "id": "node/7241804511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241806001",
+        "amenity": "restaurant",
+        "name": "Favour"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5387009,
+          3.8702039
+        ]
+      },
+      "id": "node/7241806001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241806984",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5369618,
+          3.8748928
+        ]
+      },
+      "id": "node/7241806984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241807244",
+        "amenity": "restaurant",
+        "name": "Intime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5380091,
+          3.8726475
+        ]
+      },
+      "id": "node/7241807244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241808716",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 22064083",
+        "name": "Maddream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5355325,
+          3.87277
+        ]
+      },
+      "id": "node/7241808716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241809388",
+        "amenity": "restaurant",
+        "name": "Chez Nanou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5413186,
+          3.8720684
+        ]
+      },
+      "id": "node/7241809388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241811805",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5327194,
+          3.8779289
+        ]
+      },
+      "id": "node/7241811805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241811900",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5298939,
+          3.8753591
+        ]
+      },
+      "id": "node/7241811900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241812249",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5304825,
+          3.8754999
+        ]
+      },
+      "id": "node/7241812249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241813676",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5305859,
+          3.875626
+        ]
+      },
+      "id": "node/7241813676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241814914",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5329026,
+          3.8782653
+        ]
+      },
+      "id": "node/7241814914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241815306",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5407112,
+          3.8718705
+        ]
+      },
+      "id": "node/7241815306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241815940",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 650014235",
+        "name": "Maguy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5372452,
+          3.8736003
+        ]
+      },
+      "id": "node/7241815940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241817265",
+        "amenity": "restaurant",
+        "name": "Restaurant Mta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5320624,
+          3.875716
+        ]
+      },
+      "id": "node/7241817265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241817785",
+        "amenity": "restaurant",
+        "cuisine": "african",
+        "name": "Restaurant Sénégalais Keur Serigne Saliou Mbacke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5301038,
+          3.8751102
+        ]
+      },
+      "id": "node/7241817785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7241818886",
+        "amenity": "restaurant",
+        "name": "Fétiche Cave Buffet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5318251,
+          3.8767794
+        ]
+      },
+      "id": "node/7241818886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7251466485",
+        "amenity": "restaurant",
+        "name": "nice restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4871082,
+          3.8465077
+        ]
+      },
+      "id": "node/7251466485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257792326",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 653172093",
+        "name": "Mini Chic Resto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.542017,
+          3.8737282
+        ]
+      },
+      "id": "node/7257792326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257807173",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5422319,
+          3.8737846
+        ]
+      },
+      "id": "node/7257807173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257809487",
+        "amenity": "restaurant",
+        "name": "La Mexicaine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5412691,
+          3.8742833
+        ]
+      },
+      "id": "node/7257809487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257810102",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 695737699",
+        "name": "Homme Sans Frontière"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5434384,
+          3.8742806
+        ]
+      },
+      "id": "node/7257810102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257810104",
+        "amenity": "restaurant",
+        "name": "Restaurant Taro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5456277,
+          3.8752146
+        ]
+      },
+      "id": "node/7257810104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257815075",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5408366,
+          3.8724622
+        ]
+      },
+      "id": "node/7257815075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257816674",
+        "amenity": "restaurant",
+        "name": "Tropical Fusion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5416832,
+          3.8734413
+        ]
+      },
+      "id": "node/7257816674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257817144",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5412537,
+          3.874193
+        ]
+      },
+      "id": "node/7257817144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257824308",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5405374,
+          3.8734823
+        ]
+      },
+      "id": "node/7257824308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257830173",
+        "amenity": "restaurant",
+        "name": "Welcome Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5405769,
+          3.8748259
+        ]
+      },
+      "id": "node/7257830173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257831323",
+        "amenity": "restaurant",
+        "name": "Complex Hawaï City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.539357,
+          3.8749386
+        ]
+      },
+      "id": "node/7257831323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257837758",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.547052,
+          3.8759598
+        ]
+      },
+      "id": "node/7257837758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257841328",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 690652303",
+        "indoor_seating": "yes",
+        "name": "Restaurant Sénégalais De L'amitié",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5415199,
+          3.8743646
+        ]
+      },
+      "id": "node/7257841328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257841419",
+        "amenity": "restaurant",
+        "name": "La Grâce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.542745,
+          3.8747834
+        ]
+      },
+      "id": "node/7257841419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257841472",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5464924,
+          3.8755936
+        ]
+      },
+      "id": "node/7257841472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257842795",
+        "amenity": "restaurant",
+        "name": "Square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5467884,
+          3.8747743
+        ]
+      },
+      "id": "node/7257842795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257845360",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5454981,
+          3.8760345
+        ]
+      },
+      "id": "node/7257845360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257849122",
+        "amenity": "restaurant",
+        "name": "El Phelicio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5451674,
+          3.8758791
+        ]
+      },
+      "id": "node/7257849122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257852128",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "T-west",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5460968,
+          3.8760553
+        ]
+      },
+      "id": "node/7257852128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257857326",
+        "amenity": "restaurant",
+        "name": "The House Of Ice Cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5424184,
+          3.8770567
+        ]
+      },
+      "id": "node/7257857326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257857658",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5443325,
+          3.879691
+        ]
+      },
+      "id": "node/7257857658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257858010",
+        "amenity": "restaurant",
+        "name": "Soleil D'épice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.54605,
+          3.8763557
+        ]
+      },
+      "id": "node/7257858010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257858152",
+        "amenity": "restaurant",
+        "name": "Yoyo Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.544362,
+          3.8755573
+        ]
+      },
+      "id": "node/7257858152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257863990",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 679 64 73 41",
+        "name": "Restaurant Bar Julie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5438735,
+          3.8758267
+        ]
+      },
+      "id": "node/7257863990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257883612",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.556578,
+          3.8838338
+        ]
+      },
+      "id": "node/7257883612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257883691",
+        "amenity": "restaurant",
+        "name": "Maria Luiza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5533394,
+          3.8795911
+        ]
+      },
+      "id": "node/7257883691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257895146",
+        "amenity": "restaurant",
+        "name": "Bon Goût"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5586458,
+          3.8878001
+        ]
+      },
+      "id": "node/7257895146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257897068",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5466852,
+          3.8774578
+        ]
+      },
+      "id": "node/7257897068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257897115",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5583077,
+          3.8908552
+        ]
+      },
+      "id": "node/7257897115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257898245",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 670940640",
+        "name": "Witek Hébergement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5580701,
+          3.8888143
+        ]
+      },
+      "id": "node/7257898245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257900508",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5580822,
+          3.8879773
+        ]
+      },
+      "id": "node/7257900508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257915093",
+        "amenity": "restaurant",
+        "name": "Terraga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.549017,
+          3.8779542
+        ]
+      },
+      "id": "node/7257915093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257915301",
+        "amenity": "restaurant",
+        "name": "My Food Box"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5473608,
+          3.8779784
+        ]
+      },
+      "id": "node/7257915301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260121640",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5506957,
+          3.8798793
+        ]
+      },
+      "id": "node/7260121640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260134152",
+        "amenity": "restaurant",
+        "contact:email": "tyluzcompany@gmail.com",
+        "name": "Ty-luz Fast-food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5390074,
+          3.8804456
+        ]
+      },
+      "id": "node/7260134152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260136176",
+        "amenity": "restaurant",
+        "contact:email": "crepizz99@gmail.com",
+        "contact:phone": "(+237) 690945757",
+        "name": "Crêpe Ziz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5480345,
+          3.8801517
+        ]
+      },
+      "id": "node/7260136176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260148020",
+        "amenity": "restaurant",
+        "name": "Restaurant Abanda Le Sénégalais"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5509536,
+          3.8788403
+        ]
+      },
+      "id": "node/7260148020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260149497",
+        "amenity": "restaurant",
+        "name": "Fresh'n Crunch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5498998,
+          3.8789684
+        ]
+      },
+      "id": "node/7260149497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260151493",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 677 08 74 31",
+        "name": "Opa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5503149,
+          3.880276
+        ]
+      },
+      "id": "node/7260151493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260151494",
+        "amenity": "restaurant",
+        "name": "Royal Restaurant Bar Barbecue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.539234,
+          3.8786212
+        ]
+      },
+      "id": "node/7260151494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260154986",
+        "amenity": "restaurant",
+        "name": "Le Dozo Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5487565,
+          3.8788109
+        ]
+      },
+      "id": "node/7260154986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260158310",
+        "amenity": "restaurant",
+        "name": "Resto Africain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.548038,
+          3.880168
+        ]
+      },
+      "id": "node/7260158310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260158687",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5402311,
+          3.8787339
+        ]
+      },
+      "id": "node/7260158687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260163923",
+        "amenity": "restaurant",
+        "contact:email": "kalamo.boukarou@yahoo.fr",
+        "name": "Le Kalamo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5507128,
+          3.8820733
+        ]
+      },
+      "id": "node/7260163923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260164652",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 691 94 86 40",
+        "name": "Restaurant Diététique Les Délices Dietes De Fifi Labelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5509485,
+          3.8846029
+        ]
+      },
+      "id": "node/7260164652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260167076",
+        "amenity": "restaurant",
+        "name": "Restaurant Pizzeria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5517941,
+          3.8851354
+        ]
+      },
+      "id": "node/7260167076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260168193",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5395203,
+          3.8803031
+        ]
+      },
+      "id": "node/7260168193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260168906",
+        "amenity": "restaurant",
+        "name": "The Outsiders Snack Bar Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5389725,
+          3.8805169
+        ]
+      },
+      "id": "node/7260168906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260176748",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 679 30 99 49",
+        "name": "Restaurant Eden Parc Chez Ginette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.551262,
+          3.8846537
+        ]
+      },
+      "id": "node/7260176748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260177219",
+        "amenity": "restaurant",
+        "name": "Le Gourmandain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5514458,
+          3.8834341
+        ]
+      },
+      "id": "node/7260177219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260183315",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5519343,
+          3.8853756
+        ]
+      },
+      "id": "node/7260183315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260212391",
+        "amenity": "restaurant",
+        "name": "Le Continental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5513938,
+          3.8851815
+        ]
+      },
+      "id": "node/7260212391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260223426",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5503685,
+          3.8869216
+        ]
+      },
+      "id": "node/7260223426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260230128",
+        "amenity": "restaurant",
+        "name": "Texas Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5509167,
+          3.88682
+        ]
+      },
+      "id": "node/7260230128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260232797",
+        "amenity": "restaurant",
+        "contact:phone": "(+237) 675 541 562 / 697 503 859",
+        "name": "Restaurant La Saveur Chez Dg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5514997,
+          3.8852384
+        ]
+      },
+      "id": "node/7260232797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260240277",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5365022,
+          3.8822098
+        ]
+      },
+      "id": "node/7260240277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260244792",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5516124,
+          3.8858482
+        ]
+      },
+      "id": "node/7260244792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260247045",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5479062,
+          3.885401
+        ]
+      },
+      "id": "node/7260247045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260248443",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5466731,
+          3.8875343
+        ]
+      },
+      "id": "node/7260248443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260248930",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5466413,
+          3.8870835
+        ]
+      },
+      "id": "node/7260248930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260250835",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5509837,
+          3.8866336
+        ]
+      },
+      "id": "node/7260250835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260253778",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5500507,
+          3.8869397
+        ]
+      },
+      "id": "node/7260253778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260260418",
+        "amenity": "restaurant",
+        "name": "Restaurant Sénégalais Chez Mme Cheikh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5488531,
+          3.8869852
+        ]
+      },
+      "id": "node/7260260418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260266394",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5461749,
+          3.887875
+        ]
+      },
+      "id": "node/7260266394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260277631",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5329472,
+          3.8857221
+        ]
+      },
+      "id": "node/7260277631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260286143",
+        "amenity": "restaurant",
+        "name": "Resto Eru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.534921,
+          3.8833762
+        ]
+      },
+      "id": "node/7260286143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260289268",
+        "amenity": "restaurant",
+        "name": "Restaurant Le Jacana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5378755,
+          3.8822192
+        ]
+      },
+      "id": "node/7260289268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260291061",
+        "amenity": "restaurant",
+        "name": "Bifteck Le Succès"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.538689,
+          3.8824319
+        ]
+      },
+      "id": "node/7260291061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7260294985",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5387217,
+          3.8823891
+        ]
+      },
+      "id": "node/7260294985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271278342",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5387834,
+          3.8845487
+        ]
+      },
+      "id": "node/7271278342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271293779",
+        "amenity": "restaurant",
+        "name": "Mama G Resto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5402385,
+          3.8922985
+        ]
+      },
+      "id": "node/7271293779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271300043",
+        "amenity": "restaurant",
+        "name": "La Vieille Marmite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5471921,
+          3.8918231
+        ]
+      },
+      "id": "node/7271300043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271302744",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5473319,
+          3.8915318
+        ]
+      },
+      "id": "node/7271302744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271316397",
+        "amenity": "restaurant",
+        "name": "Les Délices"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5368944,
+          3.8870708
+        ]
+      },
+      "id": "node/7271316397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271318238",
+        "amenity": "restaurant",
+        "name": "Café-restau After Work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5385406,
+          3.8847129
+        ]
+      },
+      "id": "node/7271318238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271321742",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5397362,
+          3.8876321
+        ]
+      },
+      "id": "node/7271321742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271323476",
+        "amenity": "restaurant",
+        "name": "La Maison Du Bouillon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5444506,
+          3.8881523
+        ]
+      },
+      "id": "node/7271323476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271325791",
+        "amenity": "restaurant",
+        "name": "Restaurant Bar Le Refuge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5377403,
+          3.885113
+        ]
+      },
+      "id": "node/7271325791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271326226",
+        "amenity": "restaurant",
+        "name": "Le Carring Ton2035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5356311,
+          3.8855094
+        ]
+      },
+      "id": "node/7271326226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271327461",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5474456,
+          3.8917091
+        ]
+      },
+      "id": "node/7271327461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271327462",
+        "amenity": "restaurant",
+        "name": "Tourou Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5486187,
+          3.8933575
+        ]
+      },
+      "id": "node/7271327462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271328625",
+        "amenity": "restaurant",
+        "name": "Cercle Vert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5354132,
+          3.8844891
+        ]
+      },
+      "id": "node/7271328625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271328807",
+        "amenity": "restaurant",
+        "name": "Kisses Places"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5431333,
+          3.8878857
+        ]
+      },
+      "id": "node/7271328807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271335046",
+        "amenity": "restaurant",
+        "name": "Phoceen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5414093,
+          3.8891836
+        ]
+      },
+      "id": "node/7271335046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271335414",
+        "amenity": "restaurant",
+        "name": "Café Up"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5355118,
+          3.8858
+        ]
+      },
+      "id": "node/7271335414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271336093",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5369179,
+          3.8870334
+        ]
+      },
+      "id": "node/7271336093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271340512",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5437958,
+          3.8887581
+        ]
+      },
+      "id": "node/7271340512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271340635",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5472116,
+          3.8913819
+        ]
+      },
+      "id": "node/7271340635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271342890",
+        "amenity": "restaurant",
+        "name": "Gold Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5434075,
+          3.887974
+        ]
+      },
+      "id": "node/7271342890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271343920",
+        "amenity": "restaurant",
+        "name": "Yelo Eateri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5480223,
+          3.8923466
+        ]
+      },
+      "id": "node/7271343920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271346510",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5438621,
+          3.8898208
+        ]
+      },
+      "id": "node/7271346510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271346674",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.54892,
+          3.892894
+        ]
+      },
+      "id": "node/7271346674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271346849",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5423813,
+          3.8924628
+        ]
+      },
+      "id": "node/7271346849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271348314",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5486256,
+          3.893127
+        ]
+      },
+      "id": "node/7271348314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271355245",
+        "amenity": "restaurant",
+        "name": "Five Star Bar Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5424278,
+          3.892085
+        ]
+      },
+      "id": "node/7271355245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271355246",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5423695,
+          3.8924286
+        ]
+      },
+      "id": "node/7271355246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271356538",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5494291,
+          3.8942305
+        ]
+      },
+      "id": "node/7271356538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271360576",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.543081,
+          3.8984693
+        ]
+      },
+      "id": "node/7271360576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271363333",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5422159,
+          3.8931715
+        ]
+      },
+      "id": "node/7271363333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271365897",
+        "amenity": "restaurant",
+        "name": "Oubuntu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5400051,
+          3.8972431
+        ]
+      },
+      "id": "node/7271365897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271369134",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5417955,
+          3.8946567
+        ]
+      },
+      "id": "node/7271369134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271370569",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5437073,
+          3.8986148
+        ]
+      },
+      "id": "node/7271370569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271371638",
+        "amenity": "restaurant",
+        "name": "Cafe Resto Chez Elisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5398576,
+          3.898949
+        ]
+      },
+      "id": "node/7271371638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271373803",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5490522,
+          3.9098083
+        ]
+      },
+      "id": "node/7271373803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271380702",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5389074,
+          3.8974946
+        ]
+      },
+      "id": "node/7271380702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271384294",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5435845,
+          3.8985563
+        ]
+      },
+      "id": "node/7271384294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271386132",
+        "amenity": "restaurant",
+        "name": "Mini Restau Monica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5398576,
+          3.8989748
+        ]
+      },
+      "id": "node/7271386132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271387008",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5434588,
+          3.9097018
+        ]
+      },
+      "id": "node/7271387008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271387395",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5428476,
+          3.8982646
+        ]
+      },
+      "id": "node/7271387395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271390321",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5372666,
+          3.9030721
+        ]
+      },
+      "id": "node/7271390321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271391363",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5389778,
+          3.9087512
+        ]
+      },
+      "id": "node/7271391363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271393251",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5425402,
+          3.9071161
+        ]
+      },
+      "id": "node/7271393251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271394578",
+        "amenity": "restaurant",
+        "name": "Le Peuple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5382768,
+          3.9071574
+        ]
+      },
+      "id": "node/7271394578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271398461",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5416269,
+          3.9081557
+        ]
+      },
+      "id": "node/7271398461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271407053",
+        "amenity": "restaurant",
+        "name": "Téléboutique Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.542338,
+          3.9070288
+        ]
+      },
+      "id": "node/7271407053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271408144",
+        "amenity": "restaurant",
+        "name": "Cafe Resto Donia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5423392,
+          3.907012
+        ]
+      },
+      "id": "node/7271408144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271410328",
+        "amenity": "restaurant",
+        "name": "Restaurant-cave-ahni Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5425921,
+          3.9070285
+        ]
+      },
+      "id": "node/7271410328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271410646",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5428372,
+          3.9065676
+        ]
+      },
+      "id": "node/7271410646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271416387",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5417968,
+          3.9078611
+        ]
+      },
+      "id": "node/7271416387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271421261",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.543947,
+          3.9050693
+        ]
+      },
+      "id": "node/7271421261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271421379",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5513963,
+          3.8995995
+        ]
+      },
+      "id": "node/7271421379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271432588",
+        "amenity": "restaurant",
+        "name": "Grill House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5477079,
+          3.8992721
+        ]
+      },
+      "id": "node/7271432588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271432880",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.549998,
+          3.8974588
+        ]
+      },
+      "id": "node/7271432880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271433510",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5471457,
+          3.9014527
+        ]
+      },
+      "id": "node/7271433510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271434117",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5426813,
+          3.9070904
+        ]
+      },
+      "id": "node/7271434117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271436362",
+        "amenity": "restaurant",
+        "name": "Sahel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5491894,
+          3.898262
+        ]
+      },
+      "id": "node/7271436362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271436548",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5467858,
+          3.9025395
+        ]
+      },
+      "id": "node/7271436548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271439055",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5476226,
+          3.9061434
+        ]
+      },
+      "id": "node/7271439055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271440145",
+        "amenity": "restaurant",
+        "name": "La Pépite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5494014,
+          3.8980674
+        ]
+      },
+      "id": "node/7271440145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271441986",
+        "amenity": "restaurant",
+        "name": "Vip Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5484001,
+          3.8980459
+        ]
+      },
+      "id": "node/7271441986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271443181",
+        "amenity": "restaurant",
+        "name": "Restaurant Le Bon Goût"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5447121,
+          3.9041896
+        ]
+      },
+      "id": "node/7271443181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271450288",
+        "amenity": "restaurant",
+        "name": "Premium Vip"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5452452,
+          3.9033233
+        ]
+      },
+      "id": "node/7271450288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271450746",
+        "amenity": "restaurant",
+        "name": "Life Care In Zion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5531929,
+          3.8996939
+        ]
+      },
+      "id": "node/7271450746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271450946",
+        "amenity": "restaurant",
+        "name": "Raphaëlo Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5482221,
+          3.8993471
+        ]
+      },
+      "id": "node/7271450946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271451674",
+        "amenity": "restaurant",
+        "name": "Escalier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5564192,
+          3.9004228
+        ]
+      },
+      "id": "node/7271451674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271451880",
+        "amenity": "restaurant",
+        "name": "Complexe Rodrigue Alimentation -fast Food-restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5532425,
+          3.9000629
+        ]
+      },
+      "id": "node/7271451880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271458400",
+        "amenity": "restaurant",
+        "name": "La Grâce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5493992,
+          3.8983332
+        ]
+      },
+      "id": "node/7271458400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271465439",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5608197,
+          3.9024595
+        ]
+      },
+      "id": "node/7271465439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271475192",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5512945,
+          3.903064
+        ]
+      },
+      "id": "node/7271475192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271475724",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5586213,
+          3.9005907
+        ]
+      },
+      "id": "node/7271475724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271481427",
+        "amenity": "restaurant",
+        "name": "Le Week-end Du Carreleur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5622874,
+          3.9014588
+        ]
+      },
+      "id": "node/7271481427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7545604969",
+        "addr:city": "Yaounde",
+        "addr:street": "Rue Tchoughi Aloa",
+        "amenity": "restaurant",
+        "cuisine": "rice;chicken",
+        "name": "Restaurant Universitaire n°1",
+        "source": "GeoCameroun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5006095,
+          3.8553913
+        ]
+      },
+      "id": "node/7545604969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7934998927",
+        "amenity": "restaurant",
+        "cuisine": "african",
+        "delivery": "yes",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "FLORA RESTO",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "opening_hours:kitchen": "12:00",
+        "operator": "Flora",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:notes": "yes",
+        "phone": "+237696713472/+237677744873",
+        "photo": "DCIM/JPEG_20200923155221943.jpg",
+        "reservation": "recommended",
+        "smoking": "outside",
+        "stars": "1",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4909737,
+          3.8339492
+        ]
+      },
+      "id": "node/7934998927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8194659121",
+        "amenity": "restaurant",
+        "name": "Kenny's Great House",
+        "phone": "+237697213030",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.512544,
+          3.8969628
+        ]
+      },
+      "id": "node/8194659121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8334866631",
+        "amenity": "restaurant",
+        "name": "Sadjo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.461574,
+          3.8655432
+        ]
+      },
+      "id": "node/8334866631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8443253632",
+        "amenity": "restaurant",
+        "cuisine": "barbecue",
+        "name": "Oke Bar",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5249884,
+          4.1687233
+        ]
+      },
+      "id": "node/8443253632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8482202117",
+        "amenity": "restaurant",
+        "name": "Restaurant Khahyz B K"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4941709,
+          3.8496584
+        ]
+      },
+      "id": "node/8482202117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8500459124",
+        "amenity": "restaurant",
+        "cuisine": "cameroonian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.503449,
+          3.8835002
+        ]
+      },
+      "id": "node/8500459124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8524439661",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5216017,
+          3.7731569
+        ]
+      },
+      "id": "node/8524439661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8524533306",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5199368,
+          3.7731636
+        ]
+      },
+      "id": "node/8524533306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8718892807",
+        "amenity": "restaurant",
+        "cuisine": "african",
+        "name": "Bar Restaurant Nature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5117611,
+          3.8928695
+        ]
+      },
+      "id": "node/8718892807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8718892808",
+        "amenity": "restaurant",
+        "name": "Pim Poulet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5118537,
+          3.8927456
+        ]
+      },
+      "id": "node/8718892808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8789946900",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "name": "Popeyes",
+        "old_name": "Dr. Shawarma",
+        "phone": "691 91 91 02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5090524,
+          3.8930404
+        ]
+      },
+      "id": "node/8789946900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9026271302",
+        "addr:city": "yaounde",
+        "addr:postcode": "55344",
+        "addr:street": "Rue 1.570",
+        "amenity": "restaurant",
+        "name": "les merveilles de FOLOLO",
+        "opening_hours": "24/7",
+        "phone": "6 56 43 52 87",
+        "website": "https://les-merveilles-de-fololo.business.site/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5265703,
+          3.9041398
+        ]
+      },
+      "id": "node/9026271302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9106048717",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "Chez Papi la flèche",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5425151,
+          3.8749352
+        ]
+      },
+      "id": "node/9106048717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10217304317",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "survey:date": "2024-02-07",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4966342,
+          3.8695417
+        ]
+      },
+      "id": "node/10217304317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10233779841",
+        "amenity": "restaurant",
+        "name": "ALPHA FOODS",
+        "opening_hours": "Mo-Su 08:30-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5010236,
+          3.8515532
+        ]
+      },
+      "id": "node/10233779841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10235824780",
+        "addr:street": "Rue lycée Leclerc",
+        "amenity": "restaurant",
+        "name": "RESTAURANT LE FOUTA",
+        "phone": "655388753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5045264,
+          3.8559765
+        ]
+      },
+      "id": "node/10235824780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10253165509",
+        "amenity": "restaurant",
+        "name": "LE ROLIS restaurant",
+        "survey:date": "2023-04-10",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5247885,
+          3.9013207
+        ]
+      },
+      "id": "node/10253165509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11384444058",
+        "amenity": "restaurant",
+        "name": "La Détente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5395872,
+          3.7652196
+        ]
+      },
+      "id": "node/11384444058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11392381238",
+        "addr:street": "Rue Ceper",
+        "amenity": "restaurant",
+        "description": "Restaurant, Cabaret, Bar",
+        "name": "Gramland",
+        "opening_hours": "Mo-Su 11:00-01:00",
+        "phone": "+237652211994"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5212008,
+          3.8765983
+        ]
+      },
+      "id": "node/11392381238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11394066746",
+        "amenity": "restaurant",
+        "check_date": "2023-12-04",
+        "cuisine": "french",
+        "name": "Le P'tit Bistrot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.523692,
+          3.8696801
+        ]
+      },
+      "id": "node/11394066746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11394099571",
+        "amenity": "restaurant",
+        "name": "Restaurant Sénégalais Chez Kao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4927667,
+          3.7946577
+        ]
+      },
+      "id": "node/11394099571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11398305595",
+        "amenity": "restaurant",
+        "check_date": "2023-12-06",
+        "cuisine": "regional",
+        "name": "Saveurs du Cameroun",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5132188,
+          3.8758418
+        ]
+      },
+      "id": "node/11398305595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11403251707",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "survey:date": "2023-12-08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4668889,
+          3.8102051
+        ]
+      },
+      "id": "node/11403251707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11403676171",
+        "amenity": "restaurant",
+        "check_date": "2023-12-08",
+        "cuisine": "international",
+        "name": "Le Rocher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5131474,
+          3.8760438
+        ]
+      },
+      "id": "node/11403676171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11403676177",
+        "amenity": "restaurant",
+        "check_date": "2023-12-08",
+        "cuisine": "barbecue",
+        "name": "Mapamba Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5133377,
+          3.8761406
+        ]
+      },
+      "id": "node/11403676177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11403819595",
+        "amenity": "restaurant",
+        "check_date": "2023-12-08",
+        "cuisine": "pizza",
+        "name": "Le Carino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5133174,
+          3.8758608
+        ]
+      },
+      "id": "node/11403819595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11403819596",
+        "amenity": "restaurant",
+        "check_date": "2023-12-08",
+        "name": "Crepino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5132681,
+          3.8758547
+        ]
+      },
+      "id": "node/11403819596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11420545877",
+        "amenity": "restaurant",
+        "name": "Les pieds dans l'eau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.50967,
+          3.5411507
+        ]
+      },
+      "id": "node/11420545877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11446555752",
+        "amenity": "restaurant",
+        "check_date": "2023-12-23",
+        "cuisine": "regional",
+        "indoor_seating": "yes",
+        "name": "LE TEMPS DE DIEU",
+        "outdoor_seating": "no",
+        "phone": "+237 6 99 00 12 78",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4949372,
+          3.8506484
+        ]
+      },
+      "id": "node/11446555752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11455182871",
+        "amenity": "restaurant",
+        "check_date": "2023-12-26",
+        "cuisine": "regional",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Alpha Food",
+        "phone": "+237 6 96 14 61 62",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4549439,
+          3.8725626
+        ]
+      },
+      "id": "node/11455182871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11455197519",
+        "amenity": "restaurant",
+        "check_date": "2023-12-26",
+        "phone": "+237 6 91 17 55 93",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4529995,
+          3.8732876
+        ]
+      },
+      "id": "node/11455197519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11519504476",
+        "amenity": "restaurant",
+        "name": "Tchoko's Food",
+        "opening_hours": "09:00-23:00; Tu off",
+        "phone": "+237692156896",
+        "survey:date": "2024-01-15",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5403581,
+          3.8663988
+        ]
+      },
+      "id": "node/11519504476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11591598843",
+        "amenity": "restaurant",
+        "check_date": "2024-02-06",
+        "cuisine": "regional",
+        "name": "Restaurant Fotio",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "phone": "+237 6 52 05 57 61",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5521054,
+          3.8685611
+        ]
+      },
+      "id": "node/11591598843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11752396133",
+        "amenity": "restaurant",
+        "name": "Oemar Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5028461,
+          3.8628316
+        ]
+      },
+      "id": "node/11752396133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11752415077",
+        "amenity": "restaurant",
+        "name": "Cafeteria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5031792,
+          3.8627078
+        ]
+      },
+      "id": "node/11752415077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11752421049",
+        "amenity": "restaurant",
+        "description": "#Sgrad",
+        "name": "Restaurant Sénégalais Moderne",
+        "phone": "690818414"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5046667,
+          3.8584963
+        ]
+      },
+      "id": "node/11752421049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11752425278",
+        "amenity": "restaurant",
+        "description": "#SGRAD",
+        "name": "Chips and chiken",
+        "phone": "677447134"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5049914,
+          3.8587425
+        ]
+      },
+      "id": "node/11752425278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11752433531",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "amazone",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5010588,
+          3.8630562
+        ]
+      },
+      "id": "node/11752433531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11752433673",
+        "amenity": "restaurant",
+        "description": "#SGRAD",
+        "name": "Tchuiss food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5045814,
+          3.8576407
+        ]
+      },
+      "id": "node/11752433673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11752566478",
+        "amenity": "restaurant",
+        "description": "#sgrad",
+        "name": "Commerce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5039534,
+          3.8612107
+        ]
+      },
+      "id": "node/11752566478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11752579210",
+        "amenity": "restaurant",
+        "description": "#sgrad",
+        "name": "Gogo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5037683,
+          3.8609135
+        ]
+      },
+      "id": "node/11752579210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11932879308",
+        "addr:street": "3396",
+        "amenity": "restaurant",
+        "name": "Restaurant chez uncle Sam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4969691,
+          3.8525755
+        ]
+      },
+      "id": "node/11932879308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11933006661",
+        "amenity": "restaurant",
+        "name": "Bâtiment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4970568,
+          3.8524929
+        ]
+      },
+      "id": "node/11933006661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11933015483",
+        "addr:street": "cradat",
+        "amenity": "restaurant",
+        "name": "Pizza Romeo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4985324,
+          3.8525385
+        ]
+      },
+      "id": "node/11933015483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11933027332",
+        "amenity": "restaurant",
+        "name": "Chez mama",
+        "phone": "+237694730998"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4983466,
+          3.8528396
+        ]
+      },
+      "id": "node/11933027332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11933030985",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4987108,
+          3.8543541
+        ]
+      },
+      "id": "node/11933030985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11933032210",
+        "amenity": "restaurant",
+        "name": "Restaurant universitaire numéro 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5002374,
+          3.8551243
+        ]
+      },
+      "id": "node/11933032210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11933104639",
+        "amenity": "restaurant",
+        "name": "L’Ecrin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5051145,
+          3.8871387
+        ]
+      },
+      "id": "node/11933104639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11946153614",
+        "amenity": "restaurant",
+        "name": "Clic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4826055,
+          3.8296055
+        ]
+      },
+      "id": "node/11946153614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11953687193",
+        "amenity": "restaurant",
+        "check_date": "2024-06-03",
+        "cuisine": "local",
+        "name": "Alima Cnps",
+        "phone": "+237 6 94 23 70 40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5171913,
+          3.8722949
+        ]
+      },
+      "id": "node/11953687193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12096271372",
+        "addr:city": "Yaoundé I",
+        "amenity": "restaurant",
+        "name": "L'Hybride",
+        "opening_hours": "Mo-Su 10:00-00:00",
+        "phone": "+237695047008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5049133,
+          3.8908808
+        ]
+      },
+      "id": "node/12096271372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12124074412",
+        "amenity": "restaurant",
+        "name": "restaurant municipale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.246337,
+          3.7838714
+        ]
+      },
+      "id": "node/12124074412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12161507278",
+        "amenity": "restaurant",
+        "check_date": "2024-09-01",
+        "diet:chicken": "yes",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Restaurant Halal",
+        "phone": "+237 6 75 09 45 22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5194014,
+          3.9247066
+        ]
+      },
+      "id": "node/12161507278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12189414701",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "internet_access": "wlan",
+        "name": "Tassa",
+        "phone": "6 56 70 65 66",
+        "website": "https://www.tassarestaurant.com/en"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5124809,
+          3.8855885
+        ]
+      },
+      "id": "node/12189414701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12222444016",
+        "amenity": "restaurant",
+        "name": "Restaurant Zero la vie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1992841,
+          4.0932469
+        ]
+      },
+      "id": "node/12222444016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12222446213",
+        "amenity": "restaurant",
+        "check_date": "2024-10-21",
+        "cuisine": "fish;steak_house",
+        "diet:fish": "yes",
+        "diet:local": "yes",
+        "diet:meat": "yes",
+        "internet_access": "no",
+        "name": "Restaurant La Grace",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1987067,
+          4.09373
+        ]
+      },
+      "id": "node/12222446213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12311707115",
+        "amenity": "restaurant",
+        "name": "Minnam Lunch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5076832,
+          3.8998207
+        ]
+      },
+      "id": "node/12311707115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12320617432",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5254865,
+          3.863924
+        ]
+      },
+      "id": "node/12320617432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12369257519",
+        "amenity": "restaurant",
+        "cuisine": "regional;cold_beer",
+        "diet:non-vegetarian": "yes",
+        "opening_hours": "Mo-Su 06:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5057688,
+          3.8969245
+        ]
+      },
+      "id": "node/12369257519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12369257520",
+        "amenity": "restaurant",
+        "cuisine": "grill",
+        "diet:non-vegetarian": "yes",
+        "name": "Tobassi Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5055543,
+          3.8969807
+        ]
+      },
+      "id": "node/12369257520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12400733273",
+        "amenity": "restaurant",
+        "check_date": "2024-09-01",
+        "diet:chicken": "yes",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Restaurant Halal",
+        "phone": "+237 6 75 09 45 22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5194014,
+          3.9247066
+        ]
+      },
+      "id": "node/12400733273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12405386228",
+        "address": "aladdji.promhote@gmail.com",
+        "amenity": "restaurant",
+        "name": "O'Haïra Walet",
+        "phone": "+237655490279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5078567,
+          3.8683067
+        ]
+      },
+      "id": "node/12405386228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12442271282",
+        "addr:city": "yaoundé I",
+        "amenity": "restaurant",
+        "name": "O Palétuvier",
+        "opening_hours": "Mo-Sa 12:00-22:30; Su off",
+        "phone": "+237656562639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5225496,
+          3.8787846
+        ]
+      },
+      "id": "node/12442271282"
+    }
+  ]
+}

@@ -82,6 +82,14 @@ const Restaurant = sequelize.define("restaurant", {
             isEmail: true
         }
     },
+    cuisine: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    address: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
 }, {
     timestamps: true,
 });
