@@ -63,6 +63,7 @@ app.use(`${routeHead}/restaurants`, restaurantRoutes);
 
 // share resources via any route
 //app.use(`${routeHead}/static`, express.static(path.join(__dirname, "resources/geojson")));
+app.use(`${routeHead}/static`, express.static(path.join(__dirname, "resources/images")));
 //console.log(path.join(__dirname, "resources/tiles/Mapnik"));
 
 app.listen(port, '0.0.0.0', () => {
